@@ -1,0 +1,118 @@
+item_id,texto,clave,es_correcta
+1,¿Cómo se declara una variable de tipo flotante en C++?,float numero;,True
+1,¿Cómo se declara una variable de tipo flotante en C++?,int numero;,False
+1,¿Cómo se declara una variable de tipo flotante en C++?,double numero;,False
+1,¿Cómo se declara una variable de tipo flotante en C++?,char numero;,False
+2,¿Qué comando se usa para compilar un archivo en C++ usando g++?,g++ archivo.cpp -o ejecutable,True
+2,¿Qué comando se usa para compilar un archivo en C++ usando g++?,gcc archivo.cpp -o ejecutable,False
+2,¿Qué comando se usa para compilar un archivo en C++ usando g++?,compile archivo.cpp,False
+2,¿Qué comando se usa para compilar un archivo en C++ usando g++?,build archivo.cpp,False
+3,¿Cuál es el propósito de la función 'main' en un programa C++?,Es el punto de entrada del programa,True
+3,¿Cuál es el propósito de la función 'main' en un programa C++?,Es una función de utilidad,False
+3,¿Cuál es el propósito de la función 'main' en un programa C++?,Gestiona la memoria,False
+3,¿Cuál es el propósito de la función 'main' en un programa C++?,No tiene un propósito específico,False
+4,¿Cómo se escribe un bucle 'for' para iterar de 0 a 10 en C++?,for(int i = 0; i <= 10; i++) { },True
+4,¿Cómo se escribe un bucle 'for' para iterar de 0 a 10 en C++?,for(int i = 0; i < 10; i++) { },False
+4,¿Cómo se escribe un bucle 'for' para iterar de 0 a 10 en C++?,for(i = 0; i <= 10; i++) { },False
+4,¿Cómo se escribe un bucle 'for' para iterar de 0 a 10 en C++?,for(int i = 1; i <= 10; i++) { },False
+5,¿Qué hace el operador '++' en una variable?,Incrementa el valor de la variable en 1,True
+5,¿Qué hace el operador '++' en una variable?,Decrementa el valor de la variable en 1,False
+5,¿Qué hace el operador '++' en una variable?,Multiplica el valor por 2,False
+5,¿Qué hace el operador '++' en una variable?,No realiza ninguna operación,False
+6,¿Cómo se define una constante en C++?,const tipo nombre = valor;,True
+6,¿Cómo se define una constante en C++?,constant tipo nombre = valor;,False
+6,¿Cómo se define una constante en C++?,final tipo nombre = valor;,False
+6,¿Cómo se define una constante en C++?,tipo nombre = valor;,False
+7,¿Para qué sirve el comando 'g++ -o' en la compilación?,Especifica el nombre del ejecutable generado,True
+7,¿Para qué sirve el comando 'g++ -o' en la compilación?,Optimiza el código,False
+7,¿Para qué sirve el comando 'g++ -o' en la compilación?,Incluye bibliotecas adicionales,False
+7,¿Para qué sirve el comando 'g++ -o' en la compilación?,Muestra advertencias durante la compilación,False
+8,¿Qué es una variable global en C++?,Una variable declarada fuera de todas las funciones,True
+8,¿Qué es una variable global en C++?,Una variable dentro de una función,False
+8,¿Qué es una variable global en C++?,Una variable constante,False
+8,¿Qué es una variable global en C++?,Una variable estática,False
+9,¿Cómo se crea un comentario de una línea en C++?,// Comentario,True
+9,¿Cómo se crea un comentario de una línea en C++?,/* Comentario */,False
+9,¿Cómo se crea un comentario de una línea en C++?,<!-- Comentario -->,False
+9,¿Cómo se crea un comentario de una línea en C++?,# Comentario,False
+10,¿Qué es una referencia en C++ y cómo se declara?,"Un alias para una variable, se declara usando &",True
+10,¿Qué es una referencia en C++ y cómo se declara?,"Un puntero, se declara usando *",False
+10,¿Qué es una referencia en C++ y cómo se declara?,"Una copia de una variable, se declara usando =",False
+10,¿Qué es una referencia en C++ y cómo se declara?,No existe en C++,False
+11,¿Cuál es la diferencia entre '==' y '=' en C++?,"'==' compara igualdad, '=' asigna un valor",True
+11,¿Cuál es la diferencia entre '==' y '=' en C++?,"'==' asigna un valor, '=' compara igualdad",False
+11,¿Cuál es la diferencia entre '==' y '=' en C++?,'==' y '=' son equivalentes,False
+11,¿Cuál es la diferencia entre '==' y '=' en C++?,'==' es para números y '=' para cadenas,False
+12,¿Cómo se imprime un valor en consola usando cout?,std::cout << valor << std::endl;,True
+12,¿Cómo se imprime un valor en consola usando cout?,print(valor);,False
+12,¿Cómo se imprime un valor en consola usando cout?,System.out.println(valor);,False
+12,¿Cómo se imprime un valor en consola usando cout?,"printf(""%d"", valor);",False
+13,¿Qué es el 'if' en C++ y cómo se usa?,Una estructura condicional para ejecutar código basado en una condición,True
+13,¿Qué es el 'if' en C++ y cómo se usa?,Un bucle para iterar sobre elementos,False
+13,¿Qué es el 'if' en C++ y cómo se usa?,Una función para imprimir en pantalla,False
+13,¿Qué es el 'if' en C++ y cómo se usa?,Una variable para almacenar valores booleanos,False
+14,¿Cómo se declara una función en C++?,tipo_de_retorno nombreFuncion(parámetros) { /* cuerpo */ },True
+14,¿Cómo se declara una función en C++?,nombreFuncion tipo_de_retorno(parámetros) { },False
+14,¿Cómo se declara una función en C++?,function nombreFuncion(parámetros) : tipo_de_retorno { },False
+14,¿Cómo se declara una función en C++?,def nombreFuncion(parámetros) -> tipo_de_retorno { },False
+15,¿Cuál es el uso de la palabra clave 'return' en una función?,Devuelve un valor al llamador de la función,True
+15,¿Cuál es el uso de la palabra clave 'return' en una función?,Inicia la función,False
+15,¿Cuál es el uso de la palabra clave 'return' en una función?,Finaliza el programa,False
+15,¿Cuál es el uso de la palabra clave 'return' en una función?,Declara una variable,False
+16,¿Cómo se convierte un número entero a flotante en C++?,static_cast<float>(numero),True
+16,¿Cómo se convierte un número entero a flotante en C++?,float(numero),False
+16,¿Cómo se convierte un número entero a flotante en C++?,toFloat(numero),False
+16,¿Cómo se convierte un número entero a flotante en C++?,(float)numero,False
+16,¿Cómo se convierte un número entero a flotante en C++?,convert<float>(numero),False
+17,¿Qué comando se usa para ejecutar un archivo compilado?,./ejecutable,True
+17,¿Qué comando se usa para ejecutar un archivo compilado?,run ejecutable,False
+17,¿Qué comando se usa para ejecutar un archivo compilado?,execute ejecutable,False
+17,¿Qué comando se usa para ejecutar un archivo compilado?,start ejecutable,False
+18,¿Cómo se usa la estructura 'switch' en C++?,switch(variable) { case valor1: /* código */ break; ... },True
+18,¿Cómo se usa la estructura 'switch' en C++?,switch(variable) { if(valor1) { } },False
+18,¿Cómo se usa la estructura 'switch' en C++?,switch { case valor1: /* código */ },False
+18,¿Cómo se usa la estructura 'switch' en C++?,switch(variable) => { case valor1: /* código */ },False
+19,¿Qué es una biblioteca y cómo se incluye en C++?,Un conjunto de funciones y se incluye usando #include,True
+19,¿Qué es una biblioteca y cómo se incluye en C++?,Un tipo de variable y se declara con var,False
+19,¿Qué es una biblioteca y cómo se incluye en C++?,Un comentario y se escribe con //,False
+19,¿Qué es una biblioteca y cómo se incluye en C++?,Una clase y se define con class,False
+20,¿Qué tipo de datos se usa para almacenar texto en C++?,std::string,True
+20,¿Qué tipo de datos se usa para almacenar texto en C++?,char,False
+20,¿Qué tipo de datos se usa para almacenar texto en C++?,int,False
+20,¿Qué tipo de datos se usa para almacenar texto en C++?,float,False
+21,¿Cómo se define un arreglo en C++?,tipo nombreArreglo[tamaño];,True
+21,¿Cómo se define un arreglo en C++?,tipo nombreArreglo();,False
+21,¿Cómo se define un arreglo en C++?,arreglo tipo nombreArreglo[tamaño];,False
+21,¿Cómo se define un arreglo en C++?,tipo[] nombreArreglo = {};,False
+22,¿Qué es el 'heap' y el 'stack' en la memoria de C++?,"Áreas de memoria para almacenamiento dinámico y automático, respectivamente",True
+22,¿Qué es el 'heap' y el 'stack' en la memoria de C++?,Dos tipos de variables,False
+22,¿Qué es el 'heap' y el 'stack' en la memoria de C++?,Funciones especiales para gestionar memoria,False
+22,¿Qué es el 'heap' y el 'stack' en la memoria de C++?,Nombres alternativos para punteros y referencias,False
+23,¿Para qué sirve el comando 'make' en C++?,Automatizar la compilación del programa,True
+23,¿Para qué sirve el comando 'make' en C++?,Ejecutar el programa,False
+23,¿Para qué sirve el comando 'make' en C++?,Depurar el código,False
+23,¿Para qué sirve el comando 'make' en C++?,Instalar bibliotecas,False
+24,¿Cómo se inicializa una variable con un valor en su declaración?,tipo nombre = valor;,True
+24,¿Cómo se inicializa una variable con un valor en su declaración?,tipo nombre;,False
+24,¿Cómo se inicializa una variable con un valor en su declaración?,nombre = valor;,False
+24,¿Cómo se inicializa una variable con un valor en su declaración?,tipo = valor;,False
+25,¿Qué es una clase en C++?,Una plantilla para crear objetos que encapsula datos y funciones,True
+25,¿Qué es una clase en C++?,Una función especial,False
+25,¿Qué es una clase en C++?,Una variable global,False
+25,¿Qué es una clase en C++?,Una biblioteca estándar,False
+26,¿Cómo se crea un objeto de una clase en C++?,Clase nombreObjeto;,True
+26,¿Cómo se crea un objeto de una clase en C++?,new Clase();,False
+26,¿Cómo se crea un objeto de una clase en C++?,Clase::crearObjeto();,False
+26,¿Cómo se crea un objeto de una clase en C++?,crear Clase nombreObjeto;,False
+27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que se llama a sí misma, declarada como cualquier otra función",True
+27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que nunca termina, declarada con while",False
+27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que retorna múltiples valores, declarada con array",False
+27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función interna, declarada dentro de otra función",False
+28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación AND lógica,True
+28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación OR lógica,False
+28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación NOT lógica,False
+28,¿Qué hace el operador '&&' en una expresión lógica?,Concatena cadenas,False
+29,¿Cómo se define un puntero en C++ y qué representa?,tipo* nombrePuntero; representa la dirección de una variable,True
+29,¿Cómo se define un puntero en C++ y qué representa?,tipo& nombrePuntero; representa una referencia,False
+29,¿Cómo se define un puntero en C++ y qué representa?,tipo nombrePuntero; representa una copia de la variable,False
+29,¿Cómo se define un puntero en C++ y qué representa?,tipo** nombrePuntero; representa un puntero doble,False
