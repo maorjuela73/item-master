@@ -108,11 +108,184 @@ item_id,texto,clave,es_correcta
 27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que nunca termina, declarada con while",False
 27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que retorna múltiples valores, declarada con array",False
 27,¿Qué es una función recursiva y cómo se declara en C++?,"Una función interna, declarada dentro de otra función",False
-28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación AND lógica,True
-28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación OR lógica,False
-28,¿Qué hace el operador '&&' en una expresión lógica?,Realiza una operación NOT lógica,False
-28,¿Qué hace el operador '&&' en una expresión lógica?,Concatena cadenas,False
+28,¿Qué hace el operador '&amp;&amp;' en una expresión lógica?,Realiza una operación AND lógica,True
+28,¿Qué hace el operador '&amp;&amp;' en una expresión lógica?,Realiza una operación OR lógica,False
+28,¿Qué hace el operador '&amp;&amp;' en una expresión lógica?,Realiza una operación NOT lógica,False
+28,¿Qué hace el operador '&amp;&amp;' en una expresión lógica?,Concatena cadenas,False
 29,¿Cómo se define un puntero en C++ y qué representa?,tipo* nombrePuntero; representa la dirección de una variable,True
 29,¿Cómo se define un puntero en C++ y qué representa?,tipo& nombrePuntero; representa una referencia,False
 29,¿Cómo se define un puntero en C++ y qué representa?,tipo nombrePuntero; representa una copia de la variable,False
 29,¿Cómo se define un puntero en C++ y qué representa?,tipo** nombrePuntero; representa un puntero doble,False
+30,¿Cómo se crea un objeto de una clase en C++?,Clase nombreObjeto;,True
+30,¿Cómo se crea un objeto de una clase en C++?,new Clase();,False
+30,¿Cómo se crea un objeto de una clase en C++?,Clase::crearObjeto();,False
+30,¿Cómo se crea un objeto de una clase en C++?,crear Clase nombreObjeto;,False
+31,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que se llama a sí misma, declarada como cualquier otra función",True
+31,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que nunca termina, declarada con while",False
+31,¿Qué es una función recursiva y cómo se declara en C++?,"Una función que retorna múltiples valores, declarada con array",False
+31,¿Qué es una función recursiva y cómo se declara en C++?,"Una función interna, declarada dentro de otra función",False
+32,¿Qué hace el operador &amp;&amp; en una expresión lógica?,Realiza una operación AND lógica,True
+32,¿Qué hace el operador &amp;&amp; en una expresión lógica?,Realiza una operación OR lógica,False
+32,¿Qué hace el operador &amp;&amp; en una expresión lógica?,Realiza una operación NOT lógica,False
+32,¿Qué hace el operador &amp;&amp; en una expresión lógica?,Concatena cadenas,False
+33,¿Cómo se define un puntero en C++ y qué representa?,tipo* nombrePuntero; representa la dirección de una variable,True
+33,¿Cómo se define un puntero en C++ y qué representa?,tipo& nombrePuntero; representa una referencia,False
+33,¿Cómo se define un puntero en C++ y qué representa?,tipo nombrePuntero; representa una copia de la variable,False
+33,¿Cómo se define un puntero en C++ y qué representa?,tipo** nombrePuntero; representa un puntero doble,False
+34,¿Cuál es la sintaxis correcta para incluir una librería estándar en C++?,#include &lt;iostream&gt;,True
+34,¿Cuál es la sintaxis correcta para incluir una librería estándar en C++?,#include iostream,False
+34,¿Cuál es la sintaxis correcta para incluir una librería estándar en C++?,import &lt;iostream&gt;,False
+34,¿Cuál es la sintaxis correcta para incluir una librería estándar en C++?,include iostream.h,False
+35,¿Cuál es la diferencia entre '++i' y 'i++' en C++?,"'++i' incrementa antes de evaluar, 'i++' incrementa después de evaluar",True
+35,¿Cuál es la diferencia entre '++i' y 'i++' en C++?,Ambos incrementan antes de evaluar,False
+35,¿Cuál es la diferencia entre '++i' y 'i++' en C++?,Ambos incrementan después de evaluar,False
+35,¿Cuál es la diferencia entre '++i' y 'i++' en C++?,'i++' es más rápido que '++i',False
+36,¿Qué sucede si no se libera memoria dinámica asignada con 'new'?,Produce una fuga de memoria,True
+36,¿Qué sucede si no se libera memoria dinámica asignada con 'new'?,Lanza una excepción automáticamente,False
+36,¿Qué sucede si no se libera memoria dinámica asignada con 'new'?,Reduce el rendimiento temporalmente,False
+36,¿Qué sucede si no se libera memoria dinámica asignada con 'new'?,No tiene ningún efecto negativo,False
+37,¿Cuál es el propósito del 'virtual destructor' en una clase base?,Permitir la eliminación correcta de objetos derivados,True
+37,¿Cuál es el propósito del 'virtual destructor' en una clase base?,Prevenir la creación de objetos de la clase base,False
+37,¿Cuál es el propósito del 'virtual destructor' en una clase base?,Optimizar el rendimiento del programa,False
+37,¿Cuál es el propósito del 'virtual destructor' en una clase base?,Evitar el uso de punteros en la clase,False
+38,¿Cuál es el propósito del operador '->*' en C++?,Acceder a un miembro apuntado por un puntero a miembro,True
+38,¿Cuál es el propósito del operador '->*' en C++?,Multiplicar un puntero por un miembro,False
+38,¿Cuál es el propósito del operador '->*' en C++?,Comparar dos punteros a miembros,False
+38,¿Cuál es el propósito del operador '->*' en C++?,Asignar un valor a un puntero,False
+39,¿Qué especifica la palabra clave 'explicit' cuando se usa en un constructor?,Evita conversiones implícitas,True
+39,¿Qué especifica la palabra clave 'explicit' cuando se usa en un constructor?,Permite herencia múltiple,False
+39,¿Qué especifica la palabra clave 'explicit' cuando se usa en un constructor?,Hace el constructor accesible solo dentro de la clase,False
+39,¿Qué especifica la palabra clave 'explicit' cuando se usa en un constructor?,Permite inicialización automática,False
+40,¿Cómo se declara un método constante en una clase C++?,añadiendo 'const' al final de la declaración del método,True
+40,¿Cómo se declara un método constante en una clase C++?,usando 'static' antes del tipo de retorno,False
+40,¿Cómo se declara un método constante en una clase C++?,usando 'const' antes del tipo de retorno,False
+40,¿Cómo se declara un método constante en una clase C++?,añadiendo '&' al final de la declaración,False
+41,¿Qué significa la palabra clave 'mutable' en un atributo de clase?,Permite modificar el atributo incluso en un objeto constante,True
+41,¿Qué significa la palabra clave 'mutable' en un atributo de clase?,Hace el atributo constante,False
+41,¿Qué significa la palabra clave 'mutable' en un atributo de clase?,Permite múltiples tipos para el atributo,False
+41,¿Qué significa la palabra clave 'mutable' en un atributo de clase?,Optimiza el acceso al atributo,False
+42,¿Qué función de C++ se usa para lanzar una excepción personalizada?,throw,True
+42,¿Qué función de C++ se usa para lanzar una excepción personalizada?,try,False
+42,¿Qué función de C++ se usa para lanzar una excepción personalizada?,catch,False
+42,¿Qué función de C++ se usa para lanzar una excepción personalizada?,raise,False
+43,¿Qué representa el operador '::' en C++?,El operador de resolución de ámbito,True
+43,¿Qué representa el operador '::' en C++?,El operador de apuntador a miembro,False
+43,¿Qué representa el operador '::' en C++?,El operador de flujo de entrada,False
+43,¿Qué representa el operador '::' en C++?,El operador de asignación múltiple,False
+44,¿Qué librería se debe incluir para utilizar la clase 'std::unique_ptr'?,<memory>,True
+44,¿Qué librería se debe incluir para utilizar la clase 'std::unique_ptr'?,<unique>,False
+44,¿Qué librería se debe incluir para utilizar la clase 'std::unique_ptr'?,<iostream>,False
+44,¿Qué librería se debe incluir para utilizar la clase 'std::unique_ptr'?,<vector>,False
+45,¿Qué hace la función 'std::getline()' en C++?,Lee una línea completa de texto de una entrada hasta encontrar un salto de línea,True
+45,¿Qué hace la función 'std::getline()' en C++?,Lee un solo carácter de la entrada,False
+45,¿Qué hace la función 'std::getline()' en C++?,Lee varios caracteres sin detenerse en el salto de línea,False
+45,¿Qué hace la función 'std::getline()' en C++?,Devuelve la longitud de la línea leída,False
+46,¿Cuál es el propósito de la función 'std::stoi()' en C++?,Convierte una cadena a un número entero,True
+46,¿Cuál es el propósito de la función 'std::stoi()' en C++?,Convierte un número entero a cadena,False
+46,¿Cuál es el propósito de la función 'std::stoi()' en C++?,Convierte una cadena a un número decimal,False
+46,¿Cuál es el propósito de la función 'std::stoi()' en C++?,Extrae caracteres de una cadena,False
+47,¿Qué hace la función 'std::to_string()' en C++?,Convierte un número a una cadena,True
+47,¿Qué hace la función 'std::to_string()' en C++?,Convierte una cadena a un número,False
+47,¿Qué hace la función 'std::to_string()' en C++?,Concatena dos cadenas,False
+47,¿Qué hace la función 'std::to_string()' en C++?,Devuelve el tamaño de una cadena,False
+48,¿Para qué se utiliza la función 'std::sort()' en C++?,Ordena los elementos de un contenedor en un rango específico,True
+48,¿Para qué se utiliza la función 'std::sort()' en C++?,Invierte los elementos de un contenedor,False
+48,¿Para qué se utiliza la función 'std::sort()' en C++?,Encuentra el máximo elemento en un contenedor,False
+48,¿Para qué se utiliza la función 'std::sort()' en C++?,Devuelve la posición de un elemento en un contenedor,False
+49,¿Qué hace la función 'std::reverse()' en C++?,Invierte el orden de los elementos en un rango,True
+49,¿Qué hace la función 'std::reverse()' en C++?,Ordena el rango en orden ascendente,False
+49,¿Qué hace la función 'std::reverse()' en C++?,Devuelve el tamaño del rango,False
+49,¿Qué hace la función 'std::reverse()' en C++?,Concatena el rango con otro,False
+50,¿Cuál es el propósito de la función 'std::find()' en C++?,Busca el primer elemento en un rango que coincide con un valor específico,True
+50,¿Cuál es el propósito de la función 'std::find()' en C++?,Cuenta cuántas veces aparece un valor,False
+50,¿Cuál es el propósito de la función 'std::find()' en C++?,Elimina un elemento en un rango,False
+50,¿Cuál es el propósito de la función 'std::find()' en C++?,Encuentra el último elemento que coincide con el valor,False
+51,¿Qué realiza la función 'std::unique()' en C++?,Elimina elementos duplicados contiguos en un rango,True
+51,¿Qué realiza la función 'std::unique()' en C++?,Ordena los elementos en orden único,False
+51,¿Qué realiza la función 'std::unique()' en C++?,Cuenta los elementos únicos en un rango,False
+51,¿Qué realiza la función 'std::unique()' en C++?,Convierte todos los elementos a valores únicos,False
+52,¿Para qué se utiliza la función 'std::accumulate()' en C++?,"Suma o acumula los elementos en un rango, con un valor inicial opcional",True
+52,¿Para qué se utiliza la función 'std::accumulate()' en C++?,Multiplica los elementos en un rango,False
+52,¿Para qué se utiliza la función 'std::accumulate()' en C++?,Devuelve el valor máximo en un rango,False
+52,¿Para qué se utiliza la función 'std::accumulate()' en C++?,Cuenta el número de elementos en un rango,False
+53,¿Qué hace la función 'std::remove()' en C++?,Elimina todas las apariciones de un valor específico en un rango,True
+53,¿Qué hace la función 'std::remove()' en C++?,Elimina todos los elementos de un rango,False
+53,¿Qué hace la función 'std::remove()' en C++?,Reemplaza los elementos de un rango,False
+53,¿Qué hace la función 'std::remove()' en C++?,Devuelve el tamaño de un rango,False
+54,¿Cuál es el propósito de la función 'std::copy()' en C++?,Copia un rango de elementos a otra ubicación,True
+54,¿Cuál es el propósito de la función 'std::copy()' en C++?,Corta un rango de elementos,False
+54,¿Cuál es el propósito de la función 'std::copy()' en C++?,Elimina duplicados en un rango,False
+54,¿Cuál es el propósito de la función 'std::copy()' en C++?,Invierte el orden de los elementos en un rango,False
+55,¿Qué significa un condicional 'if' anidado en C++?,Un 'if' dentro de otro 'if' para verificar condiciones adicionales,True
+55,¿Qué significa un condicional 'if' anidado en C++?,Un 'if' que se repite varias veces,False
+55,¿Qué significa un condicional 'if' anidado en C++?,Un 'if' dentro de un bucle,False
+55,¿Qué significa un condicional 'if' anidado en C++?,Un 'if' que depende de un 'else',False
+56,¿Cuál es el propósito de un condicional 'else if' en una estructura encadenada?,Proporciona una condición alternativa si la condición anterior es falsa,True
+56,¿Cuál es el propósito de un condicional 'else if' en una estructura encadenada?,Cierra el bloque 'if',False
+56,¿Cuál es el propósito de un condicional 'else if' en una estructura encadenada?,Ejecuta un bloque de código al final,False
+56,¿Cuál es el propósito de un condicional 'else if' en una estructura encadenada?,Es lo mismo que 'else' pero con varias líneas,False
+57,¿Qué sucede si ninguna condición es verdadera en una estructura encadenada 'if-else if-else'?,"Se ejecuta el bloque de 'else', si está presente",True
+57,¿Qué sucede si ninguna condición es verdadera en una estructura encadenada 'if-else if-else'?,Se vuelve al primer 'if',False
+57,¿Qué sucede si ninguna condición es verdadera en una estructura encadenada 'if-else if-else'?,El programa se detiene,False
+57,¿Qué sucede si ninguna condición es verdadera en una estructura encadenada 'if-else if-else'?,No se ejecuta ningún código,False
+58,¿Es posible usar múltiples condicionales 'if' encadenados sin un bloque 'else' final?,"Sí, se ejecutarán en orden y se evaluarán independientemente",True
+58,¿Es posible usar múltiples condicionales 'if' encadenados sin un bloque 'else' final?,"No, siempre se requiere un 'else'",False
+58,¿Es posible usar múltiples condicionales 'if' encadenados sin un bloque 'else' final?,"Sí, pero el 'else' se ejecuta automáticamente al final",False
+58,¿Es posible usar múltiples condicionales 'if' encadenados sin un bloque 'else' final?,"No, porque no se puede encadenar más de dos 'if'",False
+59,¿Qué ventaja tienen los condicionales 'else if' sobre condicionales 'if' independientes?,Permiten evaluar condiciones de manera excluyente y evitar evaluaciones innecesarias,True
+59,¿Qué ventaja tienen los condicionales 'else if' sobre condicionales 'if' independientes?,Permiten ejecutar todos los bloques 'if' al mismo tiempo,False
+59,¿Qué ventaja tienen los condicionales 'else if' sobre condicionales 'if' independientes?,Optimizan solo los 'if' con bucles,False
+59,¿Qué ventaja tienen los condicionales 'else if' sobre condicionales 'if' independientes?,Obligan a ejecutar siempre un bloque de código,False
+60,¿Qué sucede en una estructura anidada si el primer 'if' es falso?,Se omite el bloque 'if' interno y se pasa al siguiente código,True
+60,¿Qué sucede en una estructura anidada si el primer 'if' es falso?,Se ejecuta el 'else' del bloque interno,False
+60,¿Qué sucede en una estructura anidada si el primer 'if' es falso?,Se reinicia el bloque 'if' desde el principio,False
+60,¿Qué sucede en una estructura anidada si el primer 'if' es falso?,Se ejecuta el 'else' del bloque externo,False
+61,¿Qué permite lograr una estructura de 'if-else' encadenado?,Evaluar múltiples condiciones en un solo flujo de control,True
+61,¿Qué permite lograr una estructura de 'if-else' encadenado?,Usar bucles de forma más efectiva,False
+61,¿Qué permite lograr una estructura de 'if-else' encadenado?,Simplificar la lectura de código eliminando todos los 'if',False
+61,¿Qué permite lograr una estructura de 'if-else' encadenado?,Crear estructuras de datos más eficientes,False
+62,¿Qué se debe considerar al escribir 'if' anidados?,La lógica debe ser clara y los niveles de anidación deben evitarse en exceso,True
+62,¿Qué se debe considerar al escribir 'if' anidados?,Siempre se debe agregar un 'else' final,False
+62,¿Qué se debe considerar al escribir 'if' anidados?,Cada 'if' debe ser independiente del siguiente,False
+62,¿Qué se debe considerar al escribir 'if' anidados?,No se puede usar más de dos niveles de anidación,False
+63,¿Cuál es la mejor práctica al tener múltiples condiciones que evaluar?,Usar 'else if' encadenados para evitar evaluaciones innecesarias,True
+63,¿Cuál es la mejor práctica al tener múltiples condiciones que evaluar?,Anidar todos los 'if' dentro de bucles,False
+63,¿Cuál es la mejor práctica al tener múltiples condiciones que evaluar?,Agregar 'if' independientes en lugar de encadenar,False
+63,¿Cuál es la mejor práctica al tener múltiples condiciones que evaluar?,Usar únicamente 'if' y 'else' sin encadenar,False
+64,¿Qué tipo de errores se pueden producir con condicionales anidados mal estructurados?,Errores de lógica difíciles de depurar,True
+64,¿Qué tipo de errores se pueden producir con condicionales anidados mal estructurados?,Errores de sintaxis ineludibles,False
+64,¿Qué tipo de errores se pueden producir con condicionales anidados mal estructurados?,Errores de memoria,False
+64,¿Qué tipo de errores se pueden producir con condicionales anidados mal estructurados?,Ningún error si compila,False
+65,¿Cuál es la diferencia principal entre un bucle 'for' y un bucle 'while' en C++?,"El bucle 'for' se usa cuando el número de iteraciones es conocido, mientras que 'while' se usa cuando no lo es",True
+65,¿Cuál es la diferencia principal entre un bucle 'for' y un bucle 'while' en C++?,'for' es más rápido que 'while',False
+65,¿Cuál es la diferencia principal entre un bucle 'for' y un bucle 'while' en C++?,'while' solo se usa en estructuras anidadas,False
+65,¿Cuál es la diferencia principal entre un bucle 'for' y un bucle 'while' en C++?,'for' se usa solo para valores enteros,False
+66,¿Qué sucede si la condición de un bucle 'while' es siempre verdadera?,"El bucle se ejecuta indefinidamente, creando un bucle infinito",True
+66,¿Qué sucede si la condición de un bucle 'while' es siempre verdadera?,El bucle se detiene automáticamente,False
+66,¿Qué sucede si la condición de un bucle 'while' es siempre verdadera?,El programa da error de compilación,False
+66,¿Qué sucede si la condición de un bucle 'while' es siempre verdadera?,Se ejecuta una sola vez,False
+67,¿Qué parte de la estructura 'for' controla el incremento de la variable en cada iteración?,"La tercera parte, que define el incremento o decremento",True
+67,¿Qué parte de la estructura 'for' controla el incremento de la variable en cada iteración?,"La primera parte, que inicializa la variable",False
+67,¿Qué parte de la estructura 'for' controla el incremento de la variable en cada iteración?,"La segunda parte, que evalúa la condición",False
+67,¿Qué parte de la estructura 'for' controla el incremento de la variable en cada iteración?,"La cuarta parte, que reinicia el bucle",False
+68,¿Qué sucede si olvidas actualizar la condición en un bucle 'while'?,Es posible que el bucle entre en un ciclo infinito,True
+68,¿Qué sucede si olvidas actualizar la condición en un bucle 'while'?,El bucle se detiene automáticamente,False
+68,¿Qué sucede si olvidas actualizar la condición en un bucle 'while'?,Se ejecuta solo la primera iteración,False
+68,¿Qué sucede si olvidas actualizar la condición en un bucle 'while'?,El programa no compila,False
+69,¿Para qué se utiliza la palabra clave 'break' en un bucle?,Para salir del bucle antes de que se complete,True
+69,¿Para qué se utiliza la palabra clave 'break' en un bucle?,Para pausar el bucle temporalmente,False
+69,¿Para qué se utiliza la palabra clave 'break' en un bucle?,Para repetir la última iteración,False
+69,¿Para qué se utiliza la palabra clave 'break' en un bucle?,Para ir al comienzo del bucle,False
+70,¿Cuál es el propósito de la palabra clave 'continue' en un bucle?,Hace que el bucle salte a la siguiente iteración,True
+70,¿Cuál es el propósito de la palabra clave 'continue' en un bucle?,Termina el bucle,False
+70,¿Cuál es el propósito de la palabra clave 'continue' en un bucle?,Pausa el bucle indefinidamente,False
+70,¿Cuál es el propósito de la palabra clave 'continue' en un bucle?,Reinicia el bucle desde el principio,False
+71,¿Qué sucede si omites la parte de inicialización en un bucle 'for'?,"El bucle se ejecuta sin una variable de inicio, pero puede fallar sin inicialización previa",True
+71,¿Qué sucede si omites la parte de inicialización en un bucle 'for'?,El bucle no compila,False
+71,¿Qué sucede si omites la parte de inicialización en un bucle 'for'?,El bucle se ejecuta una sola vez,False
+71,¿Qué sucede si omites la parte de inicialización en un bucle 'for'?,El bucle ejecuta la condición siempre como verdadera,False
+72,¿Cuál es la sintaxis correcta para un bucle 'for' que cuenta de 0 a 9?,for (int i = 0; i < 10; i++),True
+72,¿Cuál es la sintaxis correcta para un bucle 'for' que cuenta de 0 a 9?,for (int i = 1; i <= 10; i++),False
+72,¿Cuál es la sintaxis correcta para un bucle 'for' que cuenta de 0 a 9?,for (int i = 0; i <= 9; i+1),False
+72,¿Cuál es la sintaxis correcta para un bucle 'for' que cuenta de 0 a 9?,for (int i = 10; i > 0; i--),False
+73,¿Cómo puedes crear un bucle infinito utilizando 'for'?,for (;;) { },True
