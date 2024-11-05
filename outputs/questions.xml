@@ -1,0 +1,2228 @@
+<quiz>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método se usa en Python para obtener una representación textual de un objeto?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) __str__]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) __repr__]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) __format__]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) __call__]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es la principal ventaja de un diccionario sobre una lista?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Permite valores duplicados]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Es más rápido para búsquedas de clave]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Es inmutable]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Tiene menor complejidad de espacio]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué significa que un método esté decorado con @staticmethod?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) No recibe ni cls ni self]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) No puede modificar el estado de la clase]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Puede acceder a otros métodos de instancia]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Es una función fuera de la clase]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué estructura de datos usarías en Python para implementar una cola (queue) de manera eficiente?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Lista (list)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Tupla (tuple)]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Deque de collections]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Conjunto (set)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué significa que una función sea de orden superior en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que tiene mayor prioridad en las operaciones]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Que acepta otras funciones como argumentos o devuelve funciones]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Que está definida en un nivel superior del código]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que se ejecuta antes que otras funciones]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es el resultado de la expresión 5 // 2 en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 2.5]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error de sintaxis]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué módulo estándar de Python usarías para manejar fechas y horas?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) datetime]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) time]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) calendar]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) date]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>En Python, ¿qué es una comprensión de listas (list comprehension)?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Una forma de crear listas a partir de otras listas usando una sintaxis concisa]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Un método para entender mejor las listas]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una función que recorre una lista y devuelve otra lista]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una forma de ordenar listas al comprender su contenido]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué hace la función map(func, iterable) en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Aplica una función a cada elemento de un iterable y devuelve un nuevo iterable]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Crea un diccionario a partir de dos iterables]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Filtra elementos de un iterable basándose en una función]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Devuelve un mapa geográfico de datos]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es la diferencia entre los operadores 'is' y '==' en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 'is' compara identidades, '==' compara valores]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 'is' compara valores, '==' compara identidades]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No hay diferencia, son equivalentes]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 'is' se usa para tipos numéricos, '==' para cadenas]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué tipo de excepción se lanza al intentar acceder a una clave inexistente en un diccionario?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) KeyError]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) IndexError]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) ValueError]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) TypeError]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es la salida de print('Hola' * 3) en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) HolaHolaHola]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Hola Hola Hola]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Error de tipo]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 3]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué significa que una variable tenga un valor None en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que es equivalente a cero]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Que no ha sido inicializada]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Que no tiene valor o ausencia de valor]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que es una cadena vacía]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es la función de la declaración 'with' en Python?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Importar módulos]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Crear bucles de iteración]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Manejar contextos y asegurar liberación de recursos]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Definir funciones anidadas]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre teorica</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué significa que una función en Python sea un generador?</p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que puede generar números aleatorios]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Que devuelve un iterador y usa la palabra clave 'yield']]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Que es una función recursiva]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que es una función anónima]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+class Person:
+    def __init__(self, name):
+        self.name = name
+    
+    def greet(self):
+        return f"Hello, {self.name}!"
+
+p = Person("Alice")
+print(p.greet())
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Hello, Alice!]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Hello, Person!]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Hello, None!]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+numbers = [1, 2, 3, 4, 5]
+print(numbers[::-1][2])
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 3]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) 4]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 1]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) [1, 2, 3]]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) [1, 2, 3, 4]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) [4, 3, 2, 1]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+def func(x, y=5):
+    return x + y
+
+print(func(2))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 7]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 5]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+for i in range(3):
+    print(i)
+else:
+    print("Done")
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 0\n1\n2\nDone]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 0\n1\n2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Done]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+try:
+    print(1 / 0)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Cannot divide by zero]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 1 / 0]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) ZeroDivisionError]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+x = [i * 2 for i in range(3)]
+print(x)
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) [0, 2, 4]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) [1, 2, 3]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) [2, 4, 6]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) [0, 1, 2]]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+def func(a, b):
+    return a if a > b else b
+
+print(func(5, 3))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 5]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 3]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) True]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) False]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+x = {'a': 1, 'b': 2}
+print(x.get('c', 3))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 3]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 1]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) None]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+print(bool('False'))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) True]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) False]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 0]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+def outer():
+    x = 'local'
+    def inner():
+        nonlocal x
+        x = 'nonlocal'
+    inner()
+    print(x)
+
+outer()
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) nonlocal]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) local]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) inner]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+import math
+print(math.ceil(4.2))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 5]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 4]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 4.2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+x = [1, 2, 3]
+y = x.copy()
+y.append(4)
+print(len(x))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 3]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 4]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 0]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+print("Hello {0}".format("World"))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Hello World]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Hello {0}]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Hello]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+a = set([1, 2, 3])
+b = set([3, 4, 5])
+print(a & b)
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) {3}]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) {1, 2, 3, 4, 5}]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) {}]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) {1, 2}]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre codigo</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>
+def func(a, L=[]):
+    L.append(a)
+    return L
+
+print(func(1))
+print(func(2))
+        </code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) [1]\n[1, 2]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) [1]\n[2]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) [1]\n[1]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+def calculate(x, y):
+    return x / y
+
+print(calculate(10, 0))
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: return x / y]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 3: print(calculate(10, 0))]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 1: def calculate(x, y):]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+my_dict = {"a": 1, "b": 2}
+print(my_dict["c"])
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Línea 1: my_dict = {"a": 1, "b": 2}]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Línea 2: print(my_dict["c"])]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No hay error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Línea 1 y 2]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+def add_item(list=[]):
+    list.append("new item")
+    return list
+
+print(add_item())
+print(add_item())
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 1: def add_item(list=[])]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 2: list.append("new item")]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 4: print(add_item())]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+x = 10
+if x = 5:
+    print("x es 5")
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: if x = 5:]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: x = 10]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 3: print("x es 5")]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+def func():
+    print(message)
+    message = "Hola"
+func()
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: print(message)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 3: message = "Hola"]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 4: func()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+for i in range(5)
+    print(i)
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 1: for i in range(5)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 2: print(i)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 1 y 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+my_list = [1, 2, 3]
+print(my_list[3])
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Línea 1: my_list = [1, 2, 3]]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Línea 2: print(my_list[3])]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No hay error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Línea 1 y 2]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+import math
+print(math.sine(30))
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: print(math.sine(30))]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: import math]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 1 y 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+class MyClass:
+    def __init__(self):
+        self.value = 10
+
+    def get_value(self):
+        return self.vale
+
+obj = MyClass()
+print(obj.get_value())
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 5: return self.vale]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 2: def __init__(self):]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 8: print(obj.get_value())]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+with open('file.txt', 'r') as f:
+    content = f.read()
+print(content)
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 1: with open('file.txt', 'r') as f:]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 2: content = f.read()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 3: print(content)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+print("Hola Mundo"
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 1: print("Hola Mundo"]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) No hay error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Error en tiempo de ejecución]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Línea 1 y 2]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+def suma(a, b):
+    return a + b
+
+print(suma(5))
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 4: print(suma(5))]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 2: return a + b]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 1: def suma(a, b):]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+x = "10"
+y = x + 5
+print(y)
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: y = x + 5]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: x = "10"]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 3: print(y)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+lambda x: x * 2
+print(x(5))
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: print(x(5))]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: lambda x: x * 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Línea 1 y 2]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay error]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+import random
+print(random.randInt(1, 10))
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: print(random.randInt(1, 10))]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: import random]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No hay error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Línea 1 y 2]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre error</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>
+mi_tupla = (1, 2, 3)
+mi_tupla[0] = 4
+        </code></pre>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Línea 2: mi_tupla[0] = 4]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Línea 1: mi_tupla = (1, 2, 3)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No hay error]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Línea 1 y 2]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál de las siguientes opciones se usa para filtrar un DataFrame basado en una condición en la columna 'age'?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) df[df['age'] > 20]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df['age' > 20]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.loc[df['age'] > 20]]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Solo a y c son correctas]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es el método para eliminar columnas en un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.drop(columns='columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.remove('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.pop('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) a y c]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué función se usa para renombrar columnas en un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.rename(columns={'columna_antigua': 'columna_nueva'})]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.columns.rename({'columna_antigua': 'columna_nueva'})]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.columns = {'columna_antigua': 'columna_nueva'}]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.rename(columns='columna_antigua', name='columna_nueva')]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método se utiliza para eliminar filas con valores NaN en un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.dropna()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.remove_na()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.delete_na()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.clean_na()]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se concatenan dos DataFrames verticalmente?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) pd.concat([df1, df2])]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) pd.concat([df1, df2], axis=1)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df1.append(df2)]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) a y c]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método se usa para resetear el índice de un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.reset_index()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.set_index()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.index_reset()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.index = 0]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se puede aplicar una función a cada fila de un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.apply(func, axis=1)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.apply(func)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.applymap(func)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.map(func)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método permite agrupar datos en un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.groupby('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.aggregate('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.group('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.sort_values('columna')]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se calcula la media de una columna en un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df['columna'].mean()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.mean('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df['columna'].average()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) mean(df['columna'])]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es la forma correcta de leer un archivo CSV en pandas?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) pd.read_csv('archivo.csv')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) pd.load_csv('archivo.csv')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) pd.open_csv('archivo.csv')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) pd.DataFrame('archivo.csv')]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se accede a las primeras 5 filas de un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.head()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.tail()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.first(5)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.top(5)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método se utiliza para fusionar dos DataFrames en función de una clave común?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) pd.merge(df1, df2, on='clave')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df1.join(df2)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) pd.concat([df1, df2])]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df1.append(df2)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se crea una copia independiente de un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.copy()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.deepcopy()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.clone()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.duplicate()]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cuál es el método para ordenar un DataFrame por valores de una columna?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) df.sort_values('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.order_by('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.sort('columna')]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) df.arrange('columna')]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Cómo se seleccionan múltiples columnas 'A' y 'B' de un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) df[['A', 'B']]]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df['A', 'B']]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.loc[:, ['A', 'B']]]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) a y c]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre pandas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          
+            <p>¿Qué método se utiliza para transponer un DataFrame?</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) df.T]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) df.transpose()]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) df.pivot()]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) a y b]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+  </quiz>
+  

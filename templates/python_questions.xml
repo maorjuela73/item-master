@@ -1,0 +1,34 @@
+<quiz>
+  {% for question in questions %}
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre {{ question.tipo }}</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          {% if question.tipo == "teorica" %}
+            <p>{{ question.enunciado }}</p>
+          {% elif question.tipo == "codigo" %}
+            <p>Examina el siguiente código en Python:</p>
+            <pre><code>{{ question.enunciado }}</code></pre>
+            <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+          {% elif question.tipo == "error" %}
+            <p>Identifica en qué línea ocurre el error en el siguiente código:</p>
+            <pre><code>{{ question.enunciado }}</code></pre>
+          {% elif question.tipo == "pandas" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre operaciones con pandas:</strong></p>
+          {% endif %}
+        ]]></text>
+      </questiontext>
+      {% for option in question.opciones %}
+      <answer fraction="{% if option.0 == question.correcta %}100{% else %}0{% endif %}">
+        <text><![CDATA[{{ option.0 }}) {{ option.1 }}]]></text>
+      </answer>
+      {% endfor %}
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  {% endfor %}
+  </quiz>
+  
