@@ -1,0 +1,22 @@
+<quiz>
+{% for question in questions %}
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>{{ question.code }}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    {% for option in question.options %}
+    <answer fraction="{% if option.letter == question.correct_option %}100{% else %}0{% endif %}">
+      <text><![CDATA[{{ option.letter }}) {{ option.text }}]]></text>
+    </answer>
+    {% endfor %}
+  </question>
+{% endfor %}
+</quiz>

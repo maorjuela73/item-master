@@ -1,0 +1,774 @@
+<quiz>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Animal {
+public:
+    void speak() {
+        std::cout &lt;&lt; "Animal speaks" &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Animal a;
+    a.speak();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) No output]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[B) Animal speaks]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Animal]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Animal {
+public:
+    void speak() {
+        std::cout &lt;&lt; "Animal speaks" &lt;&lt; std::endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() {
+        std::cout &lt;&lt; "Dog barks" &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Dog d;
+    d.speak();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Animal speaks]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[B) Dog barks]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) No output]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Animal {
+public:
+    virtual void speak() {
+        std::cout &lt;&lt; "Animal speaks" &lt;&lt; std::endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() override {
+        std::cout &lt;&lt; "Dog barks" &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Animal* a = new Dog();
+    a-&gt;speak();
+    delete a;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Animal speaks]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[B) Dog barks]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) No output]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Shape {
+public:
+    virtual double area() = 0;
+};
+
+class Circle : public Shape {
+    double radius;
+public:
+    Circle(double r) : radius(r) {}
+    double area() override {
+        return 3.14 * radius * radius;
+    }
+};
+
+int main() {
+    Shape* s = new Circle(5.0);
+    std::cout &lt;&lt; s-&gt;area() &lt;&lt; std::endl;
+    delete s;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) 78.5]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) 0]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Undefined behavior]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Base {
+public:
+    Base() {
+        std::cout &lt;&lt; "Base constructor" &lt;&lt; std::endl;
+    }
+    ~Base() {
+        std::cout &lt;&lt; "Base destructor" &lt;&lt; std::endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    Derived() {
+        std::cout &lt;&lt; "Derived constructor" &lt;&lt; std::endl;
+    }
+    ~Derived() {
+        std::cout &lt;&lt; "Derived destructor" &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Derived d;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) Base constructor
+Derived constructor
+Derived destructor
+Base destructor]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Derived constructor
+Base constructor
+Derived destructor
+Base destructor]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Base constructor
+Derived constructor
+Base destructor
+Derived destructor]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Base constructor
+Derived constructor
+Base destructor]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Number {
+    int value;
+public:
+    Number(int v) : value(v) {}
+    Number(const Number&amp; other) {
+        value = other.value;
+        std::cout &lt;&lt; "Copy constructor called" &lt;&lt; std::endl;
+    }
+    int getValue() { return value; }
+};
+
+int main() {
+    Number n1(5);
+    Number n2 = n1;
+    std::cout &lt;&lt; n2.getValue() &lt;&lt; std::endl;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) 5]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[B) Copy constructor called
+5]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Copy constructor called
+Error at runtime]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Error at compile time]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Complex {
+    double real, imag;
+public:
+    Complex(double r, double i) : real(r), imag(i) {}
+    Complex operator+(const Complex&amp; c) {
+        return Complex(real + c.real, imag + c.imag);
+    }
+    void display() {
+        std::cout &lt;&lt; real &lt;&lt; " + " &lt;&lt; imag &lt;&lt; "i" &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Complex c1(1.0, 2.0);
+    Complex c2(3.0, 4.0);
+    Complex c3 = c1 + c2;
+    c3.display();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) 4.0 + 6.0i]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) 1.0 + 2.0i]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) 3.0 + 4.0i]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Box {
+    double width;
+public:
+    Box(double w) : width(w) {}
+    friend void printWidth(Box b);
+};
+
+void printWidth(Box b) {
+    std::cout &lt;&lt; "Width: " &lt;&lt; b.width &lt;&lt; std::endl;
+}
+
+int main() {
+    Box box(10.5);
+    printWidth(box);
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) Width: 10.5]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Width: 0]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Width: Undefined]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class PrintData {
+public:
+    void print(int i) {
+        std::cout &lt;&lt; "Printing int: " &lt;&lt; i &lt;&lt; std::endl;
+    }
+    void print(double f) {
+        std::cout &lt;&lt; "Printing float: " &lt;&lt; f &lt;&lt; std::endl;
+    }
+    void print(const char* c) {
+        std::cout &lt;&lt; "Printing character: " &lt;&lt; c &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    PrintData pd;
+    pd.print(5);
+    pd.print(500.263);
+    pd.print("Hello C++");
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[B) Printing int: 5
+Printing float: 500.263
+Printing character: Hello C++]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Printing int: 5
+Printing float: 500.263
+Printing string: Hello C++]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Printing int: 5
+Printing double: 500.263
+Printing character: H]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Count {
+public:
+    static int counter;
+    Count() {
+        counter++;
+    }
+};
+
+int Count::counter = 0;
+
+int main() {
+    Count c1;
+    Count c2;
+    Count c3;
+    std::cout &lt;&lt; "Total objects: " &lt;&lt; Count::counter &lt;&lt; std::endl;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Total objects: 1]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Total objects: 2]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[C) Total objects: 3]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Error at compile time]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class A {
+public:
+    void display() {
+        std::cout &lt;&lt; "Class A" &lt;&lt; std::endl;
+    }
+};
+
+class B {
+public:
+    void display() {
+        std::cout &lt;&lt; "Class B" &lt;&lt; std::endl;
+    }
+};
+
+class C : public A, public B {
+};
+
+int main() {
+    C obj;
+    obj.display();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Class A]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Class B]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) No output]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+namespace First {
+    void fun() {
+        std::cout &lt;&lt; "First namespace" &lt;&lt; std::endl;
+    }
+}
+
+namespace Second {
+    void fun() {
+        std::cout &lt;&lt; "Second namespace" &lt;&lt; std::endl;
+    }
+}
+
+int main() {
+    using namespace First;
+    fun();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) First namespace]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Second namespace]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) No output]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+template &lt;typename T&gt;
+T max(T a, T b) {
+    return (a &gt; b) ? a : b;
+}
+
+int main() {
+    std::cout &lt;&lt; max(3, 7) &lt;&lt; std::endl;
+    std::cout &lt;&lt; max(3.0, 7.0) &lt;&lt; std::endl;
+    std::cout &lt;&lt; max('g', 'e') &lt;&lt; std::endl;
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) 7
+7
+g]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) 7
+7
+e]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) 3
+3
+e]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+int main() {
+    try {
+        throw 20;
+    } catch (int e) {
+        std::cout &lt;&lt; "An exception occurred. Exception Nr. " &lt;&lt; e &lt;&lt; std::endl;
+    }
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="100">
+      <text><![CDATA[A) An exception occurred. Exception Nr. 20]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Error at compile time]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) No output]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[D) Program crashes]]></text>
+    </answer>
+    
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Pregunta sobre C++</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p><strong>Pregunta:</strong></p>
+        <p>Examina el siguiente código en C++:</p>
+        <pre><code>#include &lt;iostream&gt;
+
+class Base {
+private:
+    int x;
+protected:
+    int y;
+public:
+    int z;
+};
+
+class Derived : public Base {
+public:
+    void display() {
+        // x = 1; // Line A
+        y = 2; // Line B
+        z = 3; // Line C
+        std::cout &lt;&lt; y &lt;&lt; " " &lt;&lt; z &lt;&lt; std::endl;
+    }
+};
+
+int main() {
+    Derived d;
+    d.display();
+    return 0;
+}</code></pre>
+        <p><strong>¿Qué salida produce este programa al ejecutarse?</strong></p>
+      ]]></text>
+    </questiontext>
+    
+    <answer fraction="0">
+      <text><![CDATA[A) Error at Line A]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[B) Error at Line B]]></text>
+    </answer>
+    
+    <answer fraction="0">
+      <text><![CDATA[C) Error at Line C]]></text>
+    </answer>
+    
+    <answer fraction="100">
+      <text><![CDATA[D) 2 3]]></text>
+    </answer>
+    
+  </question>
+
+</quiz>
