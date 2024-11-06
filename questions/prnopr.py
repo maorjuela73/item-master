@@ -433,10 +433,10 @@ def calculate(x, y):
 print(calculate(10, 0))
         """,
         "opciones": [
-            ("a", "Línea 2: return x / y"),
-            ("b", "Línea 3: print(calculate(10, 0))"),
-            ("c", "Línea 1: def calculate(x, y):"),
-            ("d", "No hay error")
+            ("a", "Línea 2: División por cero en 'x / y'"),
+            ("b", "Línea 3: Llamada a 'calculate(10, 0)'"),
+            ("c", "No hay error"),
+            ("d", "Línea 1: Definición de la función")
         ],
         "correcta": "a"
     },
@@ -447,28 +447,28 @@ my_dict = {"a": 1, "b": 2}
 print(my_dict["c"])
         """,
         "opciones": [
-            ("a", 'Línea 1: my_dict = {"a": 1, "b": 2}'),
-            ("b", 'Línea 2: print(my_dict["c"])'),
+            ("a", "Línea 2: Clave 'c' no existe en 'my_dict'"),
+            ("b", "Línea 1: Definición del diccionario"),
             ("c", "No hay error"),
-            ("d", "Línea 1 y 2")
+            ("d", "Ambas líneas tienen error")
         ],
-        "correcta": "b"
+        "correcta": "a"
     },
     {
         "tipo": "error",
         "enunciado": """
-def add_item(list=[]):
-    list.append("new item")
-    return list
+def add_item(lst=[]):
+    lst.append("nuevo")
+    return lst
 
 print(add_item())
 print(add_item())
         """,
         "opciones": [
-            ("a", "Línea 1: def add_item(list=[])"),
-            ("b", 'Línea 2: list.append("new item")'),
-            ("c", "Línea 4: print(add_item())"),
-            ("d", "No hay error")
+            ("a", "Línea 1: Uso de argumento mutable 'lst=[]'"),
+            ("b", "Línea 2: Agregar elemento a 'lst'"),
+            ("c", "No hay error"),
+            ("d", "Línea 4: Llamadas múltiples a 'add_item()'")
         ],
         "correcta": "a"
     },
@@ -480,10 +480,10 @@ if x = 5:
     print("x es 5")
         """,
         "opciones": [
-            ("a", "Línea 2: if x = 5:"),
-            ("b", 'Línea 1: x = 10'),
-            ("c", 'Línea 3: print("x es 5")'),
-            ("d", "No hay error")
+            ("a", "Línea 2: Se debe usar '==' para comparar"),
+            ("b", "Línea 1: Asignación de valor a 'x'"),
+            ("c", "No hay error"),
+            ("d", "Línea 3: Error de indentación")
         ],
         "correcta": "a"
     },
@@ -491,15 +491,16 @@ if x = 5:
         "tipo": "error",
         "enunciado": """
 def func():
-    print(message)
-    message = "Hola"
+    print(mensaje)
+    mensaje = "Hola"
+
 func()
         """,
         "opciones": [
-            ("a", "Línea 2: print(message)"),
-            ("b", 'Línea 3: message = "Hola"'),
-            ("c", "Línea 4: func()"),
-            ("d", "No hay error")
+            ("a", "Línea 2: Uso de 'mensaje' antes de asignar"),
+            ("b", 'Línea 3: Asignación de "mensaje"'),
+            ("c", "No hay error"),
+            ("d", "Línea 4: Llamada a 'func()'")
         ],
         "correcta": "a"
     },
@@ -510,26 +511,26 @@ for i in range(5)
     print(i)
         """,
         "opciones": [
-            ("a", "Línea 1: for i in range(5)"),
-            ("b", "Línea 2: print(i)"),
-            ("c", "Línea 1 y 2"),
-            ("d", "No hay error")
+            ("a", "Línea 1: Falta ':' después de 'range(5)'"),
+            ("b", "Línea 2: Indentación incorrecta"),
+            ("c", "No hay error"),
+            ("d", "Ambas líneas tienen error")
         ],
         "correcta": "a"
     },
     {
         "tipo": "error",
         "enunciado": """
-my_list = [1, 2, 3]
-print(my_list[3])
+mi_lista = [1, 2, 3]
+print(mi_lista[3])
         """,
         "opciones": [
-            ("a", "Línea 1: my_list = [1, 2, 3]"),
-            ("b", "Línea 2: print(my_list[3])"),
+            ("a", "Línea 2: 'mi_lista[3]' fuera de rango"),
+            ("b", "Línea 1: Definición de 'mi_lista'"),
             ("c", "No hay error"),
-            ("d", "Línea 1 y 2")
+            ("d", "Ambas líneas tienen error")
         ],
-        "correcta": "b"
+        "correcta": "a"
     },
     {
         "tipo": "error",
@@ -538,46 +539,31 @@ import math
 print(math.sine(30))
         """,
         "opciones": [
-            ("a", "Línea 2: print(math.sine(30))"),
-            ("b", "Línea 1: import math"),
-            ("c", "Línea 1 y 2"),
-            ("d", "No hay error")
+            ("a", "Línea 2: 'math' no tiene 'sine', usar 'sin'"),
+            ("b", "Línea 1: Importación de 'math'"),
+            ("c", "No hay error"),
+            ("d", "Línea 2: Error de sintaxis")
         ],
         "correcta": "a"
     },
     {
         "tipo": "error",
         "enunciado": """
-class MyClass:
+class MiClase:
     def __init__(self):
-        self.value = 10
+        self.valor = 10
 
-    def get_value(self):
-        return self.vale
+    def obtener_valor(self):
+        return self.valor
 
-obj = MyClass()
-print(obj.get_value())
+obj = MiClase()
+print(obj.obtener_valor())
         """,
         "opciones": [
-            ("a", "Línea 5: return self.vale"),
-            ("b", "Línea 2: def __init__(self):"),
-            ("c", "Línea 8: print(obj.get_value())"),
-            ("d", "No hay error")
-        ],
-        "correcta": "a"
-    },
-    {
-        "tipo": "error",
-        "enunciado": """
-with open('file.txt', 'r') as f:
-    content = f.read()
-print(content)
-        """,
-        "opciones": [
-            ("a", "Línea 1: with open('file.txt', 'r') as f:"),
-            ("b", "Línea 2: content = f.read()"),
-            ("c", "Línea 3: print(content)"),
-            ("d", "No hay error")
+            ("a", "No hay error"),
+            ("b", "Línea 5: 'self.valor' está mal escrito"),
+            ("c", "Línea 3: Inicialización de 'self.valor'"),
+            ("d", "Línea 8: Llamada a 'obj.obtener_valor()'")
         ],
         "correcta": "a"
     },
@@ -587,9 +573,9 @@ print(content)
 print("Hola Mundo"
         """,
         "opciones": [
-            ("a", 'Línea 1: print("Hola Mundo"'),
+            ("a", "Línea 1: Falta ')' al final"),
             ("b", "No hay error"),
-            ("c", "Error en tiempo de ejecución"),
+            ("c", "Error de sintaxis al final del archivo"),
             ("d", "Línea 1 y 2")
         ],
         "correcta": "a"
@@ -597,16 +583,16 @@ print("Hola Mundo"
     {
         "tipo": "error",
         "enunciado": """
-def suma(a, b):
+def sumar(a, b):
     return a + b
 
-print(suma(5))
+print(sumar(5))
         """,
         "opciones": [
-            ("a", "Línea 4: print(suma(5))"),
-            ("b", "Línea 2: return a + b"),
-            ("c", "Línea 1: def suma(a, b):"),
-            ("d", "No hay error")
+            ("a", "Línea 4: 'sumar(5)' falta un argumento"),
+            ("b", "Línea 2: Retorno de 'a + b'"),
+            ("c", "No hay error"),
+            ("d", "Línea 1: Definición de la función")
         ],
         "correcta": "a"
     },
@@ -618,24 +604,24 @@ y = x + 5
 print(y)
         """,
         "opciones": [
-            ("a", "Línea 2: y = x + 5"),
-            ("b", 'Línea 1: x = "10"'),
-            ("c", "Línea 3: print(y)"),
-            ("d", "No hay error")
+            ("a", "Línea 2: No se puede sumar cadena y número"),
+            ("b", "Línea 1: Asignación de 'x'"),
+            ("c", "No hay error"),
+            ("d", "Línea 3: Impresión de 'y'")
         ],
         "correcta": "a"
     },
     {
         "tipo": "error",
         "enunciado": """
-lambda x: x * 2
-print(x(5))
+doble = lambda x: x * 2
+print(doble(5))
         """,
         "opciones": [
-            ("a", "Línea 2: print(x(5))"),
-            ("b", "Línea 1: lambda x: x * 2"),
-            ("c", "Línea 1 y 2"),
-            ("d", "No hay error")
+            ("a", "No hay error"),
+            ("b", "Línea 1: Asignación incorrecta del 'lambda'"),
+            ("c", "Línea 2: 'doble' no está definido"),
+            ("d", "Línea 1: Error de sintaxis")
         ],
         "correcta": "a"
     },
@@ -643,13 +629,13 @@ print(x(5))
         "tipo": "error",
         "enunciado": """
 import random
-print(random.randInt(1, 10))
+print(random.randint(1, 10))
         """,
         "opciones": [
-            ("a", "Línea 2: print(random.randInt(1, 10))"),
-            ("b", "Línea 1: import random"),
-            ("c", "No hay error"),
-            ("d", "Línea 1 y 2")
+            ("a", "No hay error"),
+            ("b", "Línea 2: 'random' no tiene 'randInt', usar 'randint'"),
+            ("c", "Línea 1: Importación de 'random'"),
+            ("d", "Línea 2: Error de sintaxis")
         ],
         "correcta": "a"
     },
@@ -660,10 +646,10 @@ mi_tupla = (1, 2, 3)
 mi_tupla[0] = 4
         """,
         "opciones": [
-            ("a", "Línea 2: mi_tupla[0] = 4"),
-            ("b", "Línea 1: mi_tupla = (1, 2, 3)"),
+            ("a", "Línea 2: No se puede modificar una tupla"),
+            ("b", "Línea 1: Definición de 'mi_tupla'"),
             ("c", "No hay error"),
-            ("d", "Línea 1 y 2")
+            ("d", "Línea 2: Error de sintaxis")
         ],
         "correcta": "a"
     }
@@ -688,7 +674,7 @@ preguntas_pandas = [
             ("a", "df.drop(columns='columna')"),
             ("b", "df.remove('columna')"),
             ("c", "df.pop('columna')"),
-            ("d", "a y c")
+            ("d", "df.delete('columna')")
         ],
         "correcta": "a"
     },
