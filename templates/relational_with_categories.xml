@@ -1,9 +1,20 @@
 <quiz>
+  {% set current_category = None %}
+  
   {% for question in questions %}
-
-    <category>
-      <text>$course$/{{ question.tipo }}</text>
-    </category>
+    {% if question.tipo != current_category %}
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMaster/{{ question.tipo }}</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+      {% set current_category = question.tipo %}
+    {% endif %}
     
     <question type="multichoice">
       <name>
@@ -12,16 +23,41 @@
       <questiontext format="html">
         <text><![CDATA[
           <p><strong>Pregunta:</strong></p>
-          {{ question.enunciado }}
+          {% if question.tipo == "dependencias_funcionales" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre dependencias funcionales:</strong></p>
+          {% elif question.tipo == "llaves_candidatas" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre llaves candidatas:</strong></p>
+          {% elif question.tipo == "normalizacion" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre normalización:</strong></p>
+          {% elif question.tipo == "modelo_er" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre el modelo E-R:</strong></p>
+          {% elif question.tipo == "ACID" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre ACID:</strong></p>
+          {% elif question.tipo == "conceptos_generales" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre conceptos generales:</strong></p>
+          {% elif question.tipo == "diseno_bd" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre diseño de bases de datos:</strong></p>
+          {% elif question.tipo == "olap" %}
+            <p>{{ question.enunciado }}</p>
+            <p><strong>Selecciona la respuesta correcta sobre OLAP:</strong></p>
+          {% endif %}
         ]]></text>
       </questiontext>
+      
       {% for option in question.opciones %}
       <answer fraction="{% if option.0 == question.correcta %}100{% else %}0{% endif %}">
-        <text><![CDATA[{{ option.0 }}) {{ option.1 }}]]></text>
+        <text><![CDATA[{{ option.1 }}]]></text>
       </answer>
       {% endfor %}
-    <shuffleanswers>true</shuffleanswers>
+      
+      <shuffleanswers>true</shuffleanswers>
     </question>
   {% endfor %}
-  </quiz>
-  
+</quiz>
