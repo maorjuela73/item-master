@@ -1,0 +1,27 @@
+<quiz>
+  {% for question in questions %}
+
+    <category>
+      <text>$course$/{{ question.tipo }}</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre {{ question.tipo }}</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          {{ question.enunciado }}
+        ]]></text>
+      </questiontext>
+      {% for option in question.opciones %}
+      <answer fraction="{% if option.0 == question.correcta %}100{% else %}0{% endif %}">
+        <text><![CDATA[{{ option.0 }}) {{ option.1 }}]]></text>
+      </answer>
+      {% endfor %}
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  {% endfor %}
+  </quiz>
+  

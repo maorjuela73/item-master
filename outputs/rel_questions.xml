@@ -1,0 +1,4842 @@
+<quiz>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Un conjunto organizado de datos almacenados y accesibles electrónicamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Un programa que se usa para crear gráficos y tablas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una estructura de programación para manipular datos en memoria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una herramienta para diseñar interfaces de usuario.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es una ventaja clave de usar bases de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Mayor redundancia de datos]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Menor integridad de datos]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Mayor integridad de datos y consistencia]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Almacenamiento en formato de texto plano]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es un sistema de gestión de bases de datos (DBMS)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Un conjunto de instrucciones para limpiar datos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Un software que permite a los usuarios crear y gestionar bases de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una función que convierte datos en gráficos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una herramienta para sincronizar datos en tiempo real.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es la atomicidad en una transacción de base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La capacidad de una transacción para dividirse en partes más pequeñas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) La garantía de que cada transacción se ejecuta por completo o no se ejecuta en absoluto.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) El proceso de asegurar la integridad de los datos durante una transacción.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) La capacidad de realizar múltiples transacciones a la vez.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es el propósito principal de una base de datos relacional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Permitir el almacenamiento de datos no estructurados]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Mantener datos en estructuras de árbol]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Relacionar datos en tablas basadas en atributos comunes]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Crear gráficos dinámicos a partir de datos]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una transacción en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Una consulta SQL que actualiza datos en una tabla.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una operación que implica una secuencia de cambios en la base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) El proceso de eliminar datos de una base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un gráfico que muestra las relaciones entre datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es una característica fundamental de una base de datos distribuida?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Los datos se almacenan en una única ubicación.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Los datos se almacenan en múltiples ubicaciones interconectadas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Los datos están en formato de texto plano.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Los datos no se pueden replicar.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la principal función de un índice en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Almacenar datos en un formato comprimido.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Facilitar el acceso rápido a datos específicos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Resguardar datos en un archivo de respaldo.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Mejorar la integridad de los datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de datos suele manejar una base de datos relacional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Datos numéricos exclusivamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Datos no estructurados como imágenes y videos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Datos estructurados organizados en tablas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Datos en formato de texto sin estructura.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es la integridad referencial en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La capacidad de mantener una copia de seguridad de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) La necesidad de actualizar datos en múltiples tablas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) La restricción de que una relación de tabla debe ser válida.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) La relación entre columnas que almacenan datos únicos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es el modelo relacional de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Un modelo de datos donde se usan grafos para almacenar datos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Un modelo de datos en donde los datos están organizados en tablas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Un modelo basado en redes de nodos y relaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un modelo para manejar datos no estructurados.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una consulta en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Una operación que elimina datos duplicados.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Un comando que permite recuperar o modificar datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una estructura de datos utilizada para organizar atributos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un proceso para estructurar datos en tablas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa la propiedad de aislamiento en una transacción?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Las transacciones deben ejecutarse en el mismo orden en que se reciben.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Cada transacción debe ejecutarse de manera independiente, sin interferencia de otras.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Permite que múltiples transacciones accedan a los mismos datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Asegura que todos los datos están completos antes de la ejecución de una transacción.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es la redundancia de datos en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La eliminación de registros duplicados.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) La presencia de datos duplicados en la base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) El proceso de restaurar datos eliminados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un modelo de almacenamiento de datos en múltiples servidores.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/conceptos_generales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre conceptos_generales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una base de datos transaccional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Una base de datos diseñada para consultas de solo lectura.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una base de datos que maneja operaciones en tiempo real y transacciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una base de datos para almacenar datos multimedia.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una base de datos utilizada solo para la exportación de datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa el principio de atomicidad en una transacción de base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Una transacción debe completarse o revertirse completamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Una transacción puede dividirse en múltiples partes menores.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Permite que múltiples transacciones ocurran simultáneamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Los cambios en una transacción no necesitan ser permanentes.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es una descripción correcta de la consistencia en ACID?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La transacción puede ser revertida en cualquier momento.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) El sistema permanece en un estado válido después de una transacción.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Los cambios realizados son visibles para todos los usuarios inmediatamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) El sistema puede continuar funcionando aunque una transacción falle.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En el contexto de ACID, ¿qué representa el aislamiento?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Las transacciones deben ejecutarse de manera secuencial.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una transacción no puede interferir con otra en ejecución.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Cada transacción debe ejecutarse en un entorno completamente separado.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Solo una transacción puede ejecutarse en la base de datos a la vez.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué garantiza la durabilidad en una transacción de base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que la transacción pueda ser revertida después de ejecutarse.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Que los datos solo sean accesibles durante la transacción.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Que los cambios persistan incluso después de un fallo del sistema.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que los datos se borren automáticamente después de la transacción.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una transacción falla durante su ejecución, ¿qué aspecto de ACID asegura que la base de datos no queda en un estado inconsistente?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Durabilidad]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Atomicidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Aislamiento]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Consistencia]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué se asegura con la propiedad de consistencia en ACID?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que cada transacción se ejecute por completo o no se ejecute.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Que los cambios de una transacción permanezcan en la base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Que la base de datos pase de un estado válido a otro válido.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que los cambios se hagan visibles para otros usuarios de inmediato.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Por qué es importante el aislamiento en las transacciones?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Evita que las transacciones modifiquen datos temporalmente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Permite que cada transacción tenga una copia de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Evita que los resultados intermedios sean visibles a otras transacciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Permite la ejecución paralela de múltiples transacciones.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa que una base de datos es ACID-compliant?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Que soporta consultas de solo lectura.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Que implementa las propiedades de atomicidad, consistencia, aislamiento y durabilidad.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Que puede ejecutar solo una transacción a la vez.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Que permite almacenar datos en formatos no estructurados.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la diferencia principal entre durabilidad y consistencia en ACID?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Durabilidad garantiza que los cambios se mantengan, consistencia asegura la validez de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Consistencia garantiza la permanencia de los cambios, durabilidad valida los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Durabilidad permite múltiples transacciones, consistencia asegura la integridad de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay diferencia; ambas se refieren a la validez de la transacción.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué propiedad de ACID asegura que los cambios de una transacción completada no se pierdan en caso de un fallo?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Atomicidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Consistencia]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Aislamiento]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Durabilidad]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué sucede si una transacción no cumple con el principio de aislamiento?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La base de datos se corrompe de inmediato.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) La base de datos no puede ejecutar transacciones concurrentes.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Los resultados intermedios pueden afectar a otras transacciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No puede completarse la transacción.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Por qué es importante la propiedad de atomicidad en ACID?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Permite la concurrencia en las transacciones.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Asegura que una transacción sea completamente reversible.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Previene errores en la integridad referencial.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Permite realizar solo operaciones de consulta.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes afirma algo incorrecto sobre las propiedades ACID?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La consistencia asegura que cada transacción mantenga un estado válido.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) El aislamiento permite que las transacciones se ejecuten simultáneamente sin interferir.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) La durabilidad garantiza que los cambios de una transacción se mantengan después de un fallo.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) La atomicidad asegura que una transacción pueda ejecutarse parcialmente.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué propiedad ACID es especialmente importante en un sistema que maneja múltiples usuarios?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Atomicidad]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Aislamiento]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Durabilidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Consistencia]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/ACID</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre ACID</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué aspecto de ACID asegura que una base de datos nunca quede en un estado inválido después de una transacción?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Atomicidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Aislamiento]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Consistencia]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Durabilidad]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En el modelo E-R, ¿qué representa un rectángulo?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Una entidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Un atributo]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una relación]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una superllave]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué símbolo se utiliza para representar una relación en un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Rectángulo]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Círculo]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Rombo]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Elipse]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En un diagrama E-R, ¿qué representa un elipse?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Un atributo]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Una entidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una relación]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una clave primaria]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cómo se llama el atributo que identifica de manera única a cada entidad en una tabla?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Atributo derivado]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Clave foránea]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Clave primaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Atributo compuesto]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de relación describe una conexión entre una entidad y sí misma?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Relación binaria]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Relación unaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Relación ternaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Relación secundaria]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es el propósito principal de un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Describir el flujo de datos en un sistema.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Identificar claves primarias y foráneas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Representar visualmente las entidades y relaciones en una base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Diseñar la interfaz de usuario de una aplicación de base de datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de relación se representa entre dos entidades en un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Relación de uno a uno (1:1)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Relación de muchos a uno (M:1)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Relación de uno a muchos (1:M)]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Todas las anteriores]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cómo se representa una relación de muchos a muchos (M:N) en un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Mediante una sola línea entre dos entidades]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Con un rombo conectado a ambas entidades con líneas de cardinalidad M:N]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Con un círculo alrededor de ambas entidades]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Con un atributo compuesto entre las entidades]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de los siguientes NO es un componente básico de un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Entidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Relación]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Proceso]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Atributo]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En un diagrama E-R, ¿cómo se indica una clave primaria en un atributo?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Con un subrayado]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Con un círculo alrededor]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Con un asterisco al final]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Con un color diferente]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de atributo se calcula a partir de otros atributos en el modelo E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Atributo simple]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Atributo derivado]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Atributo compuesto]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Atributo multi-valorado]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de relación en un diagrama E-R conecta tres entidades?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Relación binaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Relación unaria]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Relación ternaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Relación de composición]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué se entiende por cardinalidad en un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) El número de atributos de una entidad]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) El número de relaciones posibles entre dos entidades]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) La cantidad de tablas en la base de datos]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) La jerarquía entre entidades]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es el propósito de un atributo multi-valorado en un diagrama E-R?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Almacenar múltiples valores para una sola entidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Permitir cálculos derivados de otros atributos]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Representar claves foráneas en la entidad]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Relacionar la entidad con sí misma]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/modelo_er</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre modelo_er</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En el modelo E-R, una entidad débil se identifica porque:
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) No tiene atributos propios.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Depende de una entidad fuerte para su existencia.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No puede tener relaciones con otras entidades.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Es siempre una clave primaria.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es el propósito principal de la normalización en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Reducir la redundancia de datos y mejorar la integridad de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Permitir la duplicación de datos para mejorar la velocidad de consulta.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Incrementar el número de tablas en la base de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Eliminar las relaciones entre tablas para simplificar el diseño.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué se logra al aplicar la primera forma normal (1NF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Eliminar los datos duplicados.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Eliminar los atributos multi-valorados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Asegurar que cada columna contenga valores únicos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Reducir las dependencias funcionales.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Para cumplir con la segunda forma normal (2NF), ¿qué debe eliminarse de la tabla?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Las dependencias de clave compuesta.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Las dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Los atributos redundantes.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Las dependencias transitivas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la característica principal de una tabla en tercera forma normal (3NF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Elimina todas las dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) No tiene dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No tiene dependencias funcionales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Permite datos multi-valorados.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de dependencias elimina la forma normal Boyce-Codd (BCNF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Dependencias de superclave.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Dependencias funcionales que no son de clave.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una dependencia transitoria en una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Cuando un atributo depende de otro que no es clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Cuando un atributo depende de una combinación de atributos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Cuando un atributo depende directamente de la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Cuando un atributo depende de un atributo no clave a través de otro atributo.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes afirmaciones es verdadera sobre la cuarta forma normal (4NF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) 4NF elimina las dependencias multi-valoradas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 4NF es lo mismo que 3NF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 4NF elimina las dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 4NF asegura que no haya dependencias de clave externa.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué forma normal se enfoca en eliminar las dependencias multi-valoradas?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 2NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3NF]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) 4NF]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Para que una tabla esté en 2NF, ¿cuál de las siguientes condiciones debe cumplirse?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Debe estar en 1NF y no tener dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Debe estar en 1NF y no tener dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Debe estar en BCNF y no tener dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Debe estar en 3NF y no tener dependencias multi-valoradas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué se elimina en la tercera forma normal (3NF) que no se elimina en la segunda forma normal (2NF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dependencias multi-valoradas]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Dependencias parciales]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Dependencias transitivas]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Atributos compuestos]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes afirmaciones es correcta sobre la forma normal BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) BCNF es una versión más estricta de 2NF.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) BCNF es una versión más estricta de 3NF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) BCNF solo se aplica a tablas con una clave primaria simple.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF elimina todas las dependencias de clave externa.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una dependencia parcial en el contexto de la normalización?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Cuando un atributo depende de una parte de una clave compuesta.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Cuando un atributo depende de otro atributo que no es clave.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Cuando un atributo depende de múltiples claves primarias.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cuando un atributo depende de una clave primaria simple.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una tabla está en BCNF, ¿cuáles de las siguientes formas normales ha alcanzado también?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF y 2NF solamente]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) 1NF, 2NF y 3NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 2NF y 3NF solamente]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 1NF y BCNF solamente]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué hace que una tabla esté en quinta forma normal (5NF)?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Elimina dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Elimina todas las dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Elimina dependencias de unión complejas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Elimina dependencias multi-valoradas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es una razón para no aplicar la normalización hasta 4NF o 5NF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Es posible que se incrementen las consultas complejas debido a la fragmentación de tablas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Aumenta la redundancia de datos en las tablas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Reduce la consistencia de los datos almacenados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Permite más datos duplicados en el sistema.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes tablas está en 3NF pero NO en BCNF? La clave primaria es (A, B).
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 
+            | A  | B  | C  |
+            |----|----|----|
+            | a1 | b1 | c1 |
+            | a2 | b1 | c2 |
+            ]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 
+            | A  | B  | C  |
+            |----|----|----|
+            | a1 | b1 | c1 |
+            | a1 | b2 | c2 |
+            ]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) 
+            | A  | B  | C  |
+            |----|----|----|
+            | a1 | b1 | c1 |
+            | a1 | b1 | c2 |
+            ]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) 
+            | A  | B  | C  |
+            |----|----|----|
+            | a1 | b1 | c1 |
+            | a2 | b2 | c2 |
+            ]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Una tabla está en BCNF si:
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Está en 1NF y 2NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) No contiene dependencias transitivas]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Cada dependencia funcional en la tabla es una dependencia de superclave]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cada dependencia funcional en la tabla es una dependencia parcial]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada la tabla siguiente, ¿en qué forma normal se encuentra? La clave primaria es (A, B).
+
+| A  | B  | C  | D  |
+|----|----|----|----|
+| a1 | b1 | c1 | d1 |
+| a1 | b2 | c2 | d1 |
+Dependencias: A &#8594; D, B &#8594; C.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) 2NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria (X, Y), ¿cuál de las siguientes dependencias funcionales haría que la tabla esté en 3NF pero no en BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) X &#8594; Z]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Y &#8594; Z]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) X, Y &#8594; Z]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Z &#8594; Y]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es una de las principales diferencias entre 3NF y BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 3NF elimina todas las dependencias transitivas, mientras que BCNF elimina todas las dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) 3NF permite algunas dependencias funcionales que BCNF no permite.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3NF elimina todas las dependencias parciales, mientras que BCNF permite dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF y 3NF son equivalentes en todos los casos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Observa la tabla siguiente. ¿Está en BCNF?
+
+| A  | B  | C  |
+|----|----|----|
+| a1 | b1 | c1 |
+| a2 | b1 | c2 |
+| a3 | b2 | c1 |
+Dependencias: A &#8594; C, B &#8594; C.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Sí, está en BCNF.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) No, tiene dependencias que no son de superclave.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Sí, porque no tiene dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No, porque A y B no forman una clave compuesta.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada la siguiente tabla y dependencias, ¿qué forma normal se cumple? Clave primaria: (X, Y)
+
+| X  | Y  | Z  |
+|----|----|----|
+| x1 | y1 | z1 |
+| x1 | y2 | z1 |
+Dependencias: X &#8594; Z.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 2NF]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) 3NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes condiciones es necesaria para que una tabla esté en BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Cada dependencia funcional involucra una clave primaria completa.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) No tiene dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No tiene dependencias parciales.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) Cada dependencia funcional no trivial tiene una superclave como determinante.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes afirmaciones es correcta sobre BCNF y 3NF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Todas las tablas en 3NF están también en BCNF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) BCNF elimina dependencias de claves externas, mientras que 3NF no.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Todas las tablas en BCNF están en 3NF, pero no todas las tablas en 3NF están en BCNF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF y 3NF eliminan únicamente dependencias multi-valoradas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada la tabla siguiente, ¿qué forma normal se cumple?
+
+| A  | B  | C  | D  |
+|----|----|----|----|
+| a1 | b1 | c1 | d1 |
+| a2 | b1 | c2 | d1 |
+Clave primaria: (A, B). Dependencias: A &#8594; D, B &#8594; C.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) 2NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) BCNF]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una tabla en BCNF tiene una dependencia funcional de un atributo no clave, ¿qué acción se debería tomar?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Eliminar el atributo no clave.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Dividir la tabla en dos para eliminar la dependencia.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Renombrar el atributo para que sea una clave secundaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Eliminar la clave primaria.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué situación en una tabla significa que cumple con 3NF pero no con BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Tiene dependencias parciales de la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Contiene dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Tiene una dependencia funcional en la que el determinante no es una superclave.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cumple con todas las dependencias funcionales.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada una tabla que contiene la clave compuesta (X, Y), si la dependencia funcional X &#8594; Z existe, ¿en qué forma normal está?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) 1NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 2NF]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) 3NF]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) No puede estar en 3NF debido a una dependencia parcial.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Observa la tabla siguiente. ¿Está en BCNF?
+
+| X  | Y  | Z  |
+|----|----|----|
+| x1 | y1 | z1 |
+| x2 | y1 | z2 |
+Dependencias: Y &#8594; Z.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Sí, porque cumple con 1NF.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) No, porque Y no es una superclave y depende de Z.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Sí, porque todas las dependencias funcionales son de superclave.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No, porque contiene una dependencia parcial.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la principal diferencia entre BCNF y 3NF en la normalización?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) BCNF solo aplica a dependencias transitivas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) 3NF elimina dependencias parciales, BCNF elimina dependencias no triviales de clave.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) BCNF aplica solo a tablas sin claves compuestas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[d) BCNF es más estricta en cuanto a dependencias funcionales de superclave.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/normalizacion</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre normalizacion</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria (P, Q), ¿qué dependencia funcional violaría la forma normal BCNF?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) P &#8594; R]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Q &#8594; R]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) P, Q &#8594; R]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) R &#8594; Q]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa que exista una dependencia funcional A &#8594; B en una tabla?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) B determina el valor de A.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Para cada valor de A, existe un valor único de B.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) A y B son claves candidatas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) A y B son independientes.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si existe una dependencia funcional A &#8594; B y una dependencia funcional B &#8594; C, ¿qué se puede decir sobre A &#8594; C?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) A &#8594; C es una dependencia transitiva.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) A &#8594; C no es una dependencia funcional válida.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) A &#8594; C es una dependencia parcial.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) A &#8594; C es una dependencia multi-valorada.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla, si X &#8594; Y y Y &#8594; X, ¿qué se puede concluir sobre X e Y?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) X e Y son mutuamente excluyentes.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) X e Y son determinantes mutuos.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) X e Y son equivalentes en la tabla.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) X e Y no tienen relación.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En la tabla siguiente, ¿cuál es una dependencia funcional?
+
+| A  | B  | C  |
+|----|----|----|
+| a1 | b1 | c1 |
+| a2 | b1 | c2 |
+| a3 | b2 | c3 |
+
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) A &#8594; B]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) B &#8594; C]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) A &#8594; C]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) C &#8594; A]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una clave compuesta (A, B) determina C, ¿cómo se clasifica la dependencia funcional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dependencia parcial]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Dependencia compuesta]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Dependencia funcional completa]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Dependencia transitiva]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria (X, Y), si existe una dependencia X &#8594; Z, ¿qué se puede inferir?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Es una dependencia funcional completa.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Es una dependencia parcial.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Es una dependencia transitiva.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Es una dependencia multi-valorada.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada una tabla con dependencias A &#8594; B y B &#8594; C, ¿cuál de las siguientes es una dependencia transitiva?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) A &#8594; C]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) B &#8594; A]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) C &#8594; A]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) A &#8594; B]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si un atributo depende funcionalmente de un conjunto de atributos que no es la clave completa, ¿cómo se clasifica esta dependencia?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dependencia multi-valorada]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Dependencia parcial]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Dependencia transitiva]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Dependencia trivial]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de dependencia funcional existe si para cada valor de un atributo A, existen múltiples valores de un atributo B?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dependencia funcional]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Dependencia transitiva]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Dependencia multi-valorada]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Dependencia parcial]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes NO es una dependencia funcional en la tabla siguiente?
+
+| X  | Y  | Z  |
+|----|----|----|
+| x1 | y1 | z1 |
+| x1 | y1 | z2 |
+| x2 | y2 | z1 |
+
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) X &#8594; Y]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Y &#8594; Z]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) X &#8594; Z]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Z &#8594; X]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria compuesta (P, Q), ¿qué indica que P &#8594; R sea una dependencia funcional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Es una dependencia completa de la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Es una dependencia parcial de la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Es una dependencia transitiva.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Es una dependencia multi-valorada.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada la tabla siguiente, ¿cuál es la dependencia funcional más probable?
+
+| A  | B  | C  |
+|----|----|----|
+| a1 | b1 | c1 |
+| a2 | b1 | c2 |
+| a2 | b2 | c3 |
+
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) A &#8594; B]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) B &#8594; A]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) A &#8594; C]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) C &#8594; A]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una tabla tiene clave primaria compuesta (A, B) y existe una dependencia B &#8594; C, ¿qué indica esto sobre la tabla?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Está en 2NF pero no en 3NF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Cumple con BCNF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Está en 3NF pero no en BCNF.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cumple con 1NF pero no con 2NF.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla donde se cumple X &#8594; Y y Y &#8594; Z, ¿qué se puede inferir sobre X y Z?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) X y Z son mutuamente dependientes.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) X &#8594; Z es una dependencia transitiva.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Z &#8594; X también debe cumplirse.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) X y Z son determinantes mutuos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/dependencias_funcionales</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre dependencias_funcionales</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes opciones describe correctamente una dependencia funcional trivial?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Una dependencia en la que el atributo de la derecha es un subconjunto del de la izquierda.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Una dependencia en la que el atributo de la izquierda depende de un atributo externo.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una dependencia que solo involucra la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una dependencia multi-valorada entre dos atributos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una llave candidata en una tabla de base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Un atributo que puede contener valores duplicados.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Un atributo o conjunto de atributos que puede identificar de forma única una fila.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una combinación de todas las columnas de una tabla.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una clave primaria secundaria.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es siempre una superllave en una tabla?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) La clave primaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Cualquier columna única]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Una combinación de atributos que contiene la clave primaria]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un atributo único en la tabla]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada una tabla con las columnas A, B y C, y la clave primaria (A, B), ¿cuál de las siguientes es una superllave?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) A]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) (A, B)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) (A, C)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (B, C)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué característica debe cumplir una llave candidata?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Debe ser una combinación de todas las columnas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Debe ser única y minimal, sin atributos extra.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Debe incluir atributos multi-valorados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Debe depender funcionalmente de la clave primaria.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes afirmaciones es correcta sobre superllaves?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Cada superllave contiene al menos una llave candidata.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Una superllave no puede contener ninguna llave candidata.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Cada llave candidata contiene varias superllaves.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Las superllaves no incluyen la clave primaria.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué diferencia hay entre una llave candidata y una superllave?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Una superllave siempre es minimal, una llave candidata no.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una llave candidata es minimal y única, una superllave puede tener atributos adicionales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una llave candidata no puede usarse como clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No hay diferencia entre una llave candidata y una superllave.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada la tabla siguiente, ¿cuál es una llave candidata?
+
+| A  | B  | C  |
+|----|----|----|
+| a1 | b1 | c1 |
+| a2 | b2 | c2 |
+Dependencias: A &#8594; B, C &#8594; A.
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) A]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) B]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) C]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (A, B)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria (X, Y), ¿cuál de las siguientes combinaciones es también una superllave?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) (X, Y, Z)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) (Y, Z)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Z]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (X, Z)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una tabla tiene una única llave candidata, ¿qué puedes inferir sobre las superllaves?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) No hay superllaves adicionales.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) La llave candidata es también la única superllave minimal.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Todas las combinaciones de atributos son superllaves.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Solo los atributos de la clave primaria pueden formar superllaves.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Dada una tabla con las columnas A, B y C, y la clave primaria A, ¿cuál de las siguientes es una superllave pero no una llave candidata?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) A]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) (A, B)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) B]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (A, C)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          Si una tabla tiene clave primaria (P, Q), ¿cuál de las siguientes combinaciones es una llave candidata adicional?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) (P, Q)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) P]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) (Q, R)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (P, Q, R)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes opciones es siempre verdadera para una llave candidata?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Debe ser una superllave y minimal.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Debe ser única pero no necesariamente minimal.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No puede usarse como clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Siempre contiene todos los atributos de la tabla.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con clave primaria A, ¿cuál de las siguientes opciones representa una superllave?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) A]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) (A, B)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) B]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Ninguna de las anteriores]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla, una superllave se caracteriza porque:
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Identifica de forma única cada fila y puede contener atributos adicionales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Es siempre una combinación minimal de atributos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) No puede incluir la clave primaria.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) No debe ser única en la tabla.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/llaves_candidatas</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre llaves_candidatas</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una tabla con los atributos X, Y y Z, ¿cuál de las siguientes combinaciones sería una superllave si X es la clave primaria?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) (X, Y)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Y]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Z]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) (X, Z)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es una característica de una arquitectura cliente-servidor en bases de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Los datos se almacenan en el cliente y se procesan en el servidor.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) El cliente solicita y procesa datos, mientras el servidor gestiona el almacenamiento y acceso.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Todos los datos se almacenan y procesan exclusivamente en el cliente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) El cliente solo almacena datos, mientras que el servidor los procesa.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una arquitectura de base de datos distribuida, ¿qué ventaja ofrece sobre una centralizada?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Mejor control de integridad en un único punto.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Mayor redundancia y resiliencia en múltiples ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Menor tiempo de respuesta debido a la centralización.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Mayor facilidad para realizar copias de seguridad en un único sitio.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la función de una base de datos replicada?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Permitir que diferentes usuarios modifiquen el mismo registro simultáneamente.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Mantener copias idénticas de los datos en múltiples ubicaciones para redundancia y disponibilidad.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Dividir datos en fragmentos para almacenamiento distribuido.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Restringir el acceso a un único usuario a la vez.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es la fragmentación en bases de datos distribuidas?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Dividir la base de datos en fragmentos para almacenarla en diferentes ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Replicar la misma base de datos en múltiples servidores.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Consolidar múltiples bases de datos en un solo servidor.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Segmentar las transacciones en pequeñas operaciones.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es la principal ventaja de la normalización en el diseño de una base de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Mejorar el rendimiento al duplicar los datos en varias tablas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Reducir la redundancia de datos y mejorar la consistencia.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Aumentar la redundancia de datos para mejorar la recuperación.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Asegurar que todos los datos estén en un solo lugar.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En un diseño de base de datos, ¿qué es una relación de 'uno a muchos'?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Cada registro en una tabla está relacionado con un único registro en otra tabla.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Cada registro en una tabla está relacionado con múltiples registros en otra tabla.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Cada registro en una tabla tiene una relación bidireccional con varios registros.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cada registro en una tabla está relacionado con múltiples registros de sí mismo.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es una base de datos NoSQL?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Una base de datos que utiliza exclusivamente relaciones y claves foráneas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una base de datos que no utiliza el lenguaje SQL y almacena datos de forma no relacional.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una base de datos solo para operaciones de lectura y escritura básica.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Una base de datos que solo permite operaciones transaccionales.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En un sistema de bases de datos distribuidas, ¿qué es la fragmentación horizontal?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Dividir los atributos de una tabla en diferentes ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Dividir las filas de una tabla en diferentes ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Replicar la misma tabla en múltiples ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Consolidar datos de diferentes tablas en una sola tabla.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es un riesgo de una arquitectura de base de datos centralizada?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Baja redundancia de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Mayor tiempo de acceso debido a la fragmentación.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Complejidad en el control de integridad en múltiples ubicaciones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Mayor dificultad en la administración de transacciones simultáneas.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es una ventaja de usar una arquitectura de base de datos orientada a microservicios?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Permite que cada microservicio tenga su propia base de datos, mejorando la independencia y escalabilidad.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Aumenta la dependencia entre microservicios mediante una base de datos compartida.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Facilita la migración de datos a sistemas centralizados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Reduce la complejidad del sistema al unificar todas las bases de datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una base de datos distribuida, ¿qué significa la consistencia eventual?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Todos los nodos siempre tienen los mismos datos en todo momento.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Los datos en los nodos pueden estar temporalmente desactualizados, pero finalmente se sincronizan.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Los datos se actualizan de forma sincrónica en todos los nodos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Los datos solo están disponibles en un nodo principal.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué enfoque de diseño de base de datos es ideal para aplicaciones que requieren alta disponibilidad y baja latencia?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Base de datos centralizada.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Base de datos distribuida.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Base de datos orientada a archivos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Base de datos transaccional.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de diseño es preferible para manejar grandes volúmenes de datos no estructurados?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Base de datos relacional.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Base de datos jerárquica.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Base de datos NoSQL.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Base de datos orientada a transacciones.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En una base de datos distribuida, ¿cuál es el principal desafío al replicar datos en múltiples ubicaciones?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Asegurar la consistencia y resolución de conflictos entre réplicas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Permitir la modificación simultánea de datos en todos los nodos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Limitar el acceso a la base de datos solo al nodo principal.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Reducir el rendimiento general del sistema.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/diseno_bd</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre diseno_bd</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes opciones describe mejor un sistema de base de datos OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Optimizado para transacciones de lectura y escritura frecuentes.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Optimizado para análisis de grandes volúmenes de datos, como consultas complejas y reportes.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Diseñado exclusivamente para almacenar datos no estructurados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Limitado a un solo tipo de transacción a la vez.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es el propósito principal de un sistema OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Facilitar transacciones de alta frecuencia y baja latencia.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Soportar consultas analíticas complejas para la toma de decisiones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Gestionar y procesar datos no estructurados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Proporcionar almacenamiento en la nube a gran escala.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué es un cubo OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Un contenedor de almacenamiento de datos no estructurados.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Una estructura de datos que permite el análisis multidimensional.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Un método de almacenamiento de datos en archivos planos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un sistema para gestionar transacciones concurrentes.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de operaciones se suelen realizar en un cubo OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Operaciones CRUD básicas]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Roll-up, Drill-down, Slice y Dice]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Actualización de registros en tiempo real]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Indexación y fragmentación de datos]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa 'Roll-up' en el contexto de OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Un proceso de agregar datos en un nivel superior de jerarquía.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Una operación para dividir los datos en múltiples dimensiones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Una técnica para cambiar la orientación de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Un proceso para reducir el tamaño de los datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes es una característica clave de los sistemas OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Optimización para consultas transaccionales de alta frecuencia.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Capacidad de análisis multidimensional y consultas complejas.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Almacenamiento de datos en archivos no relacionales.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Facilidad para gestionar grandes volúmenes de datos no estructurados.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En OLAP, ¿qué significa 'Drill-down'?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Resumen de datos en un nivel más alto.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Navegar hacia un nivel más detallado de los datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Filtrar los datos para incluir solo ciertas dimensiones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Cambiar la orientación de los datos para analizar otra dimensión.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de los siguientes es un ejemplo de operación 'Slice' en un cubo OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Agregar todos los datos en una dimensión.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Seleccionar un subconjunto de datos de una dimensión específica.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Navegar hacia niveles de datos más detallados.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Rotar el cubo para ver diferentes dimensiones.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          En un sistema OLAP, ¿qué permite la operación 'Dice'?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Seleccionar un subconjunto de datos en varias dimensiones.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Filtrar los datos para incluir solo una dimensión específica.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Resumir datos a un nivel jerárquico superior.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Combinar datos de diferentes cubos OLAP.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes opciones NO es una operación típica en OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Roll-up]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Drill-down]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[c) Replicación]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Slice]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué tipo de consultas suelen ser las más comunes en sistemas OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) Consultas de solo lectura y análisis de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) Actualización frecuente de registros.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Consultas para inserciones masivas de datos.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Consultas concurrentes de alta frecuencia.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál de las siguientes opciones describe mejor un sistema OLTP en comparación con un sistema OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Optimizado para consultas analíticas y reportes.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Optimizado para transacciones de alta frecuencia y actualizaciones concurrentes.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Diseñado exclusivamente para consultas de solo lectura.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Ideal para análisis de grandes volúmenes de datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué significa el término 'tiempo de respuesta rápido' en un sistema OLAP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Las consultas se completan en menos de 1 segundo.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) El sistema optimiza los datos para procesar consultas analíticas rápidamente.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) El sistema solo permite consultas básicas sin análisis complejo.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) El sistema actualiza los datos de forma inmediata.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué modelo de almacenamiento suele utilizarse en OLAP para soportar análisis de grandes volúmenes de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Modelo relacional con tablas normalizadas.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Modelo multidimensional o en forma de cubo.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Modelo jerárquico basado en registros.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Modelo de grafo para redes de datos.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Cuál es una ventaja de un sistema OLAP en comparación con un sistema OLTP?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[a) Mayor capacidad para manejar transacciones en tiempo real.]]></text>
+      </answer>
+      
+      <answer fraction="100">
+        <text><![CDATA[b) Soporte para consultas complejas y análisis multidimensional.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) Actualización constante de registros en tiempo real.]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) Menor tiempo de respuesta en consultas concurrentes.]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+
+    <category>
+      <text>$course$/olap</text>
+    </category>
+    
+    <question type="multichoice">
+      <name>
+        <text>Pregunta sobre olap</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+          ¿Qué arquitectura OLAP permite el procesamiento en un sistema centralizado de grandes volúmenes de datos?
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[a) ROLAP (Relational OLAP)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[b) MOLAP (Multidimensional OLAP)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[c) HOLAP (Hybrid OLAP)]]></text>
+      </answer>
+      
+      <answer fraction="0">
+        <text><![CDATA[d) EOLAP (Enterprise OLAP)]]></text>
+      </answer>
+      
+    <shuffleanswers>true</shuffleanswers>
+    </question>
+  
+  </quiz>
+  
