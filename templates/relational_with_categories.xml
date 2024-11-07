@@ -6,7 +6,7 @@
       <!-- Cambia la categoría solo si es una nueva -->
       <question type="category">
         <category>
-          <text>$course$/top/ItemMaster/{{ question.tipo }}</text>
+          <text>$course$/top/ItemMasterTEST/{{ question.tipo }}</text>
         </category>
         <info format="moodle_auto_format">
           <text></text>
@@ -18,7 +18,7 @@
     
     <question type="multichoice">
       <name>
-        <text>Pregunta sobre {{ question.tipo }}</text>
+        <text>{{ question.enunciado | clean_and_truncate() }}</text>
       </name>
       <questiontext format="html">
         <text><![CDATA[
@@ -54,6 +54,9 @@
       {% for option in question.opciones %}
       <answer fraction="{% if option.0 == question.correcta %}100{% else %}0{% endif %}">
         <text><![CDATA[{{ option.1 }}]]></text>
+        <feedback format="html">
+          <text><![CDATA[{{ question.feedback[option.0] }}]]></text>
+        </feedback>
       </answer>
       {% endfor %}
       
