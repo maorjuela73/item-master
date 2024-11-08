@@ -1,0 +1,2018 @@
+<quiz>
+  
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál de los siguientes es uno de los cuatro pilares de la programación orientada a ob...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál de los siguientes es uno de los cuatro pilares de la programación orientada a objetos?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Iteración]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La iteración es una estructura de control, no un pilar de la POO.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Recursión]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La recursión es una técnica de programación, no un pilar de la POO.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Herencia]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. La herencia es uno de los cuatro pilares de la POO.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La compilación es un proceso de traducción de código, no un pilar de la POO.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Encapsulación</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cuál es la palabra clave utilizada para especificar que los miembros de una cl...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cuál es la palabra clave utilizada para especificar que los miembros de una clase son accesibles solo dentro de la clase misma?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Encapsulación</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[public]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'public' permite acceso desde cualquier lugar.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[private]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'private' restringe el acceso solo a la clase misma.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[protected]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'protected' permite acceso desde clases derivadas.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[friend]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'friend' es una declaración que permite acceso privado a otra clase o función.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Abstracción</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cómo se declara una clase abstracta en C++</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cómo se declara una clase abstracta en C++?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Abstracción</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Definiendo al menos un método virtual puro.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Un método virtual puro se declara con '= 0'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando la palabra clave 'abstract' antes de la clase.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. C++ no tiene una palabra clave 'abstract'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Heredando de la clase 'Abstract'.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No existe una clase 'Abstract' por defecto en C++.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No es posible crear clases abstractas en C++.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Sí es posible mediante métodos virtuales puros.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Herencia</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la sintaxis correcta para indicar que una clase 'Perro' hereda públicamente d...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la sintaxis correcta para indicar que una clase 'Perro' hereda públicamente de una clase 'Animal' en C++?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Herencia</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[`class Perro : Animal { };`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Falta especificar el modo de herencia 'public'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[`class Perro -> public Animal { };`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sintaxis de herencia no utiliza '->'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[`class Perro : public Animal { };`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Esta es la sintaxis correcta para herencia pública.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[`class Perro(Animal) { };`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esta no es la sintaxis correcta en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Polimorfismo</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se logra el polimorfismo en tiempo de ejecución</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se logra el polimorfismo en tiempo de ejecución?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Polimorfismo</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Usando funciones sobrecargadas.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sobrecarga es polimorfismo en tiempo de compilación.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando plantillas (templates).]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las plantillas también son polimorfismo en tiempo de compilación.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Usando métodos virtuales y punteros o referencias a clases base.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Los métodos virtuales permiten polimorfismo dinámico.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando macros preprocesador.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Los macros no proporcionan polimorfismo.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Visibilidad</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es el modificador de acceso predeterminado para los miembros de una clase en C++</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es el modificador de acceso predeterminado para los miembros de una clase en C++?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Visibilidad</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[public]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'public' es el modificador predeterminado en 'struct', no en 'class'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[private]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. En 'class', los miembros son 'private' por defecto.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[protected]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'protected' no es el modificador predeterminado.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[internal]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'internal' no es un modificador de acceso en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Atributos y Métodos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara un método constante que no modifica los miembros de la clase</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara un método constante que no modifica los miembros de la clase?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Atributos y Métodos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[`void metodo() const { }`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El 'const' después de los paréntesis indica un método constante.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[`const void metodo() { }`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'const' antes del tipo de retorno no hace el método constante.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[`void const metodo() { }`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El orden es incorrecto y no hace el método constante.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[`void metodo() { } const`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La posición de 'const' es incorrecta.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Encapsulación</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Qué mecanismo en C++ se utiliza para restringir el acceso directo a los datos de una ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Qué mecanismo en C++ se utiliza para restringir el acceso directo a los datos de una clase?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Encapsulación</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Herencia múltiple]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La herencia múltiple no se utiliza para restringir acceso.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Constructores]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Los constructores inicializan objetos pero no restringen acceso.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Modificadores de acceso (public, private, protected)]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Los modificadores de acceso controlan la visibilidad de los miembros.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Sobrecarga de operadores]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sobrecarga de operadores modifica el comportamiento de operadores.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Herencia</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ si una clase derivada necesita llamar al constructor de su clase base que toma...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, si una clase derivada necesita llamar al constructor de su clase base que toma argumentos, ¿cómo se hace?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Herencia</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[No es posible llamar al constructor de la clase base con argumentos.]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Sí es posible llamar al constructor de la clase base con argumentos.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[En el cuerpo del constructor de la clase derivada, llamando `Base( argumentos );`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sintaxis es incorrecta para llamar al constructor base.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Usando una lista de inicialización: `Derivada( args ) : Base( args ) { }`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. La lista de inicialización permite llamar al constructor base con argumentos.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando la palabra clave `super`: `super( args );`]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'super' no es una palabra clave en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Polimorfismo</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Qué palabra clave se utiliza en C++ para evitar que una clase sea heredada</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Qué palabra clave se utiliza en C++ para evitar que una clase sea heredada?</div>
+            <p><strong>Selecciona la respuesta correcta sobre Polimorfismo</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[sealed]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'sealed' es usado en otros lenguajes como C#, no en C++.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[final]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'final' previene la herencia de una clase o método.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[override]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'override' se utiliza para sobreescribir métodos virtuales.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[static]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'static' indica un miembro de clase compartido, no afecta la herencia.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Encapsulación</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cuál es la palabra clave utilizada para declarar miembros de clase que solo so...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cuál es la palabra clave utilizada para declarar miembros de clase que solo son accesibles desde dentro de la misma clase?<br><br><code>class MiClase {<br>    /* Completar */<br>    int datoPrivado;<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Encapsulación</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[public]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'public' permite acceso desde cualquier parte.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[private]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'private' restringe el acceso solo a la clase misma.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[protected]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'protected' permite acceso desde clases derivadas.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[friend]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'friend' es una declaración especial que otorga acceso.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Herencia</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara correctamente que una clase 'Coche' hereda públicamente de una...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara correctamente que una clase 'Coche' hereda públicamente de una clase 'Vehículo'?<br><br><code>class Coche /* Completar */ {<br>    // Implementación<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Herencia</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[: Vehículo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Falta especificar el tipo de herencia 'public'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[: public Vehículo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Esta es la sintaxis correcta para herencia pública.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[-> Vehículo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esta sintaxis no es válida en C++ para herencia.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[(Vehículo)]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esta sintaxis no es correcta en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Polimorfismo</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ qué especificador se utiliza para indicar que un método sobrescribe uno virtua...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿qué especificador se utiliza para indicar que un método sobrescribe uno virtual de la clase base?<br><br><code>class Base {<br>public:<br>    virtual void mostrar();<br>};<br><br>class Derivada : public Base {<br>public:<br>    void mostrar() /* Completar */;<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Polimorfismo</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[virtual]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'virtual' se usa en la declaración del método en la clase base.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[override]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'override' indica que el método sobrescribe uno virtual de la base.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[final]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'final' se usa para evitar más sobrescrituras.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[static]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'static' define un método estático, no relacionado con sobrescritura.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Abstracción</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara un método virtual puro en una clase abstractaclass Figura {pub...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara un método virtual puro en una clase abstracta?<br><br><code>class Figura {<br>public:<br>    virtual void dibujar() /* Completar */;<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Abstracción</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[= 0;]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. '= 0;' indica un método virtual puro.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[{}]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '{}' sería una implementación vacía, no un método puro.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[= default;]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '= default;' solicita la implementación por defecto.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[= delete;]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '= delete;' elimina el método, impidiendo su uso.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Constructores</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se llama al constructor de la clase base 'Base' desde el constructor de l...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se llama al constructor de la clase base 'Base' desde el constructor de la clase derivada 'Derivada'?<br><br><code>class Derivada : public Base {<br>public:<br>    Derivada() /* Completar */ {<br>        // Cuerpo del constructor<br>    }<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Constructores</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Base();]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esta sintaxis no llama al constructor base correctamente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[: Base()]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. La lista de inicialización llama al constructor de 'Base'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[{ Base(); }]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Llamar al constructor dentro del cuerpo no es adecuado.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[-> Base()]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esta sintaxis no es válida en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Visibilidad</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ qué modificador de acceso permite que los miembros sean accesibles en la clase...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿qué modificador de acceso permite que los miembros sean accesibles en la clase y sus derivadas, pero no desde fuera?<br><br><code>class MiClase {<br>protected:<br>    int datoProtegido;<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Visibilidad</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[public]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'public' permite acceso desde cualquier parte.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[private]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'private' restringe el acceso solo a la clase misma.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[protected]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'protected' permite acceso desde la clase y sus derivadas.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[friend]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'friend' otorga acceso a clases o funciones específicas.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Métodos Constantes</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara un método constante que no modifica los miembros de la clasecl...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara un método constante que no modifica los miembros de la clase?<br><br><code>class MiClase {<br>public:<br>    int obtenerValor() /* Completar */ {<br>        return valor;<br>    }<br>private:<br>    int valor;<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Métodos Constantes</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[const;]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sintaxis correcta es colocar 'const' después de los paréntesis.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[const {}]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La posición de 'const' y las llaves son incorrectas.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[const { }]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las llaves no son necesarias aquí.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[const]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'const' después de los paréntesis declara el método como constante.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Sobrecarga de Operadores</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara correctamente la sobrecarga del operador '+' en una clase 'Com...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara correctamente la sobrecarga del operador '+' en una clase 'Complejo'?<br><br><code>class Complejo {<br>public:<br>    Complejo operator+ (const Complejo& otro) /* Completar */ {<br>        // Implementación<br>    }<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Sobrecarga de Operadores</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[virtual]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No se necesita 'virtual' para sobrecargar operadores.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[const]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'const' no es necesario aquí.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[override]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'override' se usa al sobrescribir métodos virtuales.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. No se requiere ningún especificador adicional.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Polimorfismo</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara una clase para que no pueda ser heredadaclass ClaseFinal  Comp...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara una clase para que no pueda ser heredada?<br><br><code>class ClaseFinal /* Completar */ {<br>    // Implementación<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Polimorfismo</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[final]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'final' debe colocarse después del nombre de la clase.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[: final]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La sintaxis correcta es colocar 'final' después del nombre.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[class ClaseFinal final]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'final' después del nombre impide la herencia.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[sealed]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'sealed' no es una palabra clave en C++.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Herencia Múltiple</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declara una clase 'Híbrido' que hereda públicamente de 'ClaseA' y 'Cla...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declara una clase 'Híbrido' que hereda públicamente de 'ClaseA' y 'ClaseB'?<br><br><code>class Híbrido : /* Completar */ {<br>    // Implementación<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Herencia Múltiple</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[public ClaseA, public ClaseB]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Esta es la sintaxis para herencia múltiple pública.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[ClaseA, ClaseB]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Falta especificar el tipo de herencia 'public'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[public ClaseA & ClaseB]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '&' no se usa para indicar herencia.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[ClaseA + ClaseB]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '+' no es válido para herencia múltiple.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Lectura y Escritura de Archivos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente código#include &lt;fstream&gt;#include &lt;i...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>#include &lt;fstream&gt;<br>#include &lt;iostream&gt;<br>#include &lt;string&gt;<br><br>int main() {<br>    std::ofstream archivo("salida.txt");<br>    archivo << "Hola, mundo" << std::endl;<br>    archivo.close();<br>    std::ifstream entrada("salida.txt");<br>    std::string linea;<br>    std::getline(entrada, linea);<br>    std::cout << linea << std::endl;<br>    entrada.close();<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Lectura y Escritura de Archivos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Imprime 'Hola, mundo' en la consola]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El programa escribe en el archivo y luego lee e imprime el contenido.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Escribe 'Hola, mundo' en el archivo 'salida.txt']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Además de escribir en el archivo, también imprime en la consola.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Imprime 'Hola, mundo' en la consola y escribe 'Hola, mundo' en el archivo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Solo se imprime en la consola después de leer del archivo.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No produce salida y no escribe en el archivo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El programa realiza operaciones de E/S correctamente.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Lectura y Escritura de Archivos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Qué hace el siguiente código en C++#include &lt;fstream&gt;#include &lt;iostream&gt;i...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Qué hace el siguiente código en C++?<br><br><code>#include &lt;fstream&gt;<br>#include &lt;iostream&gt;<br><br>int main() {<br>    std::ifstream archivo("datos.txt");<br>    if (!archivo) {<br>        std::cerr << "No se pudo abrir el archivo" << std::endl;<br>        return 1;<br>    }<br>    int suma = 0, numero;<br>    while (archivo >> numero) {<br>        suma += numero;<br>    }<br>    std::cout << "La suma es: " << suma << std::endl;<br>    archivo.close();<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Lectura y Escritura de Archivos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Lee números de 'datos.txt' y calcula su suma]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El programa lee números desde el archivo y calcula la suma.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Escribe números en 'datos.txt']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El programa solo lee del archivo, no escribe en él.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Genera un error de compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código compila correctamente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No hace nada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El programa realiza operaciones de lectura y cálculo.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Lectura y Escritura de Archivos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Considerando el siguiente código qué contenido tendrá el archivo 'outputtxt' después ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>Considerando el siguiente código, ¿qué contenido tendrá el archivo 'output.txt' después de ejecutarlo?<br><br><code>#include &lt;fstream&gt;<br>#include &lt;string&gt;<br><br>int main() {<br>    std::ofstream archivo("output.txt", std::ios::app);<br>    archivo << "Línea 1" << std::endl;<br>    archivo.close();<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Lectura y Escritura de Archivos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[El archivo contendrá solo 'Línea 1']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El modo 'std::ios::app' añade al final sin borrar el contenido previo.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[El archivo contendrá 'Línea 1' al final, preservando el contenido previo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El texto se añade al final del archivo existente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[El archivo estará vacío]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El archivo no estará vacío después de escribir.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[El código genera un error y no modifica el archivo]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código funciona y escribe en el archivo.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Lectura y Escritura de Archivos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Analiza el siguiente código y determina su funcionalidad:#include &lt;fstream&gt;#inc...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>Analiza el siguiente código y determina su funcionalidad:<br><br><code>#include &lt;fstream&gt;<br>#include &lt;iostream&gt;<br>#include &lt;vector&gt;<br><br>int main() {<br>    std::ifstream entrada("datos.txt");<br>    std::vector&lt;int&gt; numeros;<br>    int num;<br>    while (entrada >> num) {<br>        numeros.push_back(num);<br>    }<br>    entrada.close();<br>    std::ofstream salida("resultado.txt");<br>    for (auto it = numeros.rbegin(); it != numeros.rend(); ++it) {<br>        salida << *it << std::endl;<br>    }<br>    salida.close();<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Lectura y Escritura de Archivos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Copia los números de 'datos.txt' a 'resultado.txt' en orden inverso]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El programa almacena los números y los escribe en orden inverso.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Ordena los números de 'datos.txt' y los guarda en 'resultado.txt']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No se realiza ninguna operación de ordenamiento.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Calcula la suma de los números y la escribe en 'resultado.txt']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No se calcula la suma de los números.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Genera un error en tiempo de ejecución]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código funciona correctamente si los archivos existen.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Lectura y Escritura de Archivos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Qué hace el siguiente fragmento de código#include &lt;fstream&gt;#include &lt;iostrea...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Qué hace el siguiente fragmento de código?<br><br><code>#include &lt;fstream&gt;<br>#include &lt;iostream&gt;<br>#include &lt;string&gt;<br><br>int main() {<br>    std::fstream archivo;<br>    archivo.open("miarchivo.txt", std::ios::in | std::ios::out | std::ios::trunc);<br>    archivo << "Texto inicial" << std::endl;<br>    archivo.seekg(0, std::ios::beg);<br>    std::string linea;<br>    std::getline(archivo, linea);<br>    std::cout << linea << std::endl;<br>    archivo.close();<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Lectura y Escritura de Archivos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Escribe 'Texto inicial' en 'miarchivo.txt' y lo imprime en la consola]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El programa escribe en el archivo, mueve el puntero al inicio y lee para imprimir.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Solo escribe 'Texto inicial' en 'miarchivo.txt']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Además de escribir, también lee e imprime el contenido.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Solo imprime 'Texto inicial' en la consola]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El contenido proviene del archivo, no de una variable en memoria.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Genera un error porque 'seekg' no es válido en 'fstream']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'seekg' es válido y utilizado correctamente en este contexto.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente códigoclass Animal {public:    virtual void ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>class Animal {<br>public:<br>    virtual void hacerSonido() { cout << "Sonido genérico" << endl; }<br>};<br><br>class Perro : public Animal {<br>public:<br>    void hacerSonido() override { cout << "Guau" << endl; }<br>};<br><br>int main() {<br>    Animal* animal = new Perro();<br>    animal->hacerSonido();<br>    delete animal;<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Sonido genérico]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La clase 'Perro' sobrescribe el método 'hacerSonido' de 'Animal'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Guau]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'animal' es un puntero a 'Perro', y se invoca el método sobrescrito 'Guau'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Error de compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código compila correctamente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Sonido genérico
+Guau]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Solo se llama una vez a 'hacerSonido' en este ejemplo.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente códigoclass Base {public:    Base() { cout  ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>class Base {<br>public:<br>    Base() { cout << "Constructor Base" << endl; }<br>    virtual ~Base() { cout << "Destructor Base" << endl; }<br>};<br><br>class Derivada : public Base {<br>public:<br>    Derivada() { cout << "Constructor Derivada" << endl; }<br>    ~Derivada() { cout << "Destructor Derivada" << endl; }<br>};<br><br>int main() {<br>    Base* obj = new Derivada();<br>    delete obj;<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Constructor Base
+Constructor Derivada
+Destructor Base]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Falta el 'Destructor Derivada'. El destructor virtual asegura la llamada al destructor derivado.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Constructor Derivada
+Destructor Derivada
+Destructor Base]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El 'Constructor Base' debería ejecutarse primero.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Constructor Base
+Constructor Derivada
+Destructor Derivada
+Destructor Base]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Primero se construye 'Base' y luego 'Derivada'. Los destructores se llaman en orden inverso.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Constructor Base
+Destructor Derivada
+Destructor Base]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El orden de construcción y destrucción no coincide con la salida esperada.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente códigoclass A {public:    void mostrar() { c...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>class A {<br>public:<br>    void mostrar() { cout << "Clase A" << endl; }<br>};<br><br>class B : public A {<br>public:<br>    void mostrar() { cout << "Clase B" << endl; }<br>};<br><br>int main() {<br>    A* obj = new B();<br>    obj->mostrar();<br>    delete obj;<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Clase A]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. La función 'mostrar' no es virtual, por lo que se llama la versión de 'A'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Clase B]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'mostrar' no es virtual, por lo que no se produce polimorfismo.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Error de compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código compila correctamente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Clase A
+Clase B]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Solo se llama a 'mostrar' una vez, desde 'obj' de tipo 'A*'.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente códigoclass Base {public:    Base() { cout  ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>class Base {<br>public:<br>    Base() { cout << "Base construida" << endl; }<br>    virtual void saludo() = 0;<br>};<br><br>class Derivada : public Base {<br>public:<br>    Derivada() { cout << "Derivada construida" << endl; }<br>    void saludo() override { cout << "Hola desde Derivada" << endl; }<br>};<br><br>int main() {<br>    Base* obj = new Derivada();<br>    obj->saludo();<br>    delete obj;<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Error de compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La clase 'Derivada' implementa el método virtual puro 'saludo'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Base construida
+Derivada construida]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Falta la salida de la llamada a 'saludo'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Base construida
+Derivada construida
+Hola desde Derivada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Se construyen ambas clases, y luego se invoca 'saludo' en 'Derivada'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Hola desde Derivada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La construcción de objetos imprime mensajes también.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Programación Orientada a Objetos</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>Cuál es la salida esperada del siguiente códigoclass Base {public:    Base() { cout }...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>¿Cuál es la salida esperada del siguiente código?<br><br><code>class Base {<br>public:<br>    Base() { cout << "Base" << endl; }<br>};<br><br>class Derivada : public Base {<br>public:<br>    Derivada() { cout << "Derivada" << endl; }<br>};<br><br>int main() {<br>    Derivada obj;<br>    return 0;<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Programación Orientada a Objetos</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Base]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. También se ejecuta el constructor de 'Derivada'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Derivada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Primero se llama al constructor de 'Base'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Base
+Derivada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El constructor de 'Base' se llama antes que el de 'Derivada'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Error de compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El código compila correctamente.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cuál es la extensión estándar para un archivo de encabezado Completar </text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cuál es la extensión estándar para un archivo de encabezado?<br><br><code>/* Completar */</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[.cpp]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '.cpp' es la extensión para archivos de código fuente.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[.h]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. '.h' es la extensión estándar para archivos de encabezado.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[.exe]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '.exe' es la extensión para archivos ejecutables.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[.txt]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '.txt' es la extensión para archivos de texto plano.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ qué directiva de preprocesador se utiliza para incluir el contenido de un arch...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿qué directiva de preprocesador se utiliza para incluir el contenido de un archivo de encabezado?<br><br><code>/* Completar */ "miarchivo.h"</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[#include]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. '#include' se utiliza para incluir archivos de encabezado.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[#define]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '#define' se usa para definir macros.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[#ifndef]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '#ifndef' se usa en guardas de inclusión.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[#pragma]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '#pragma' se usa para directivas específicas del compilador.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cuál es la razón principal para separar las declaraciones en archivos 'h' y la...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cuál es la razón principal para separar las declaraciones en archivos '.h' y las definiciones en archivos '.cpp'?<br><br><code>// miarchivo.h<br>void funcion();<br><br>// miarchivo.cpp<br>/* Completar */<br>void funcion() {<br>    // Implementación<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Mejorar la seguridad del código]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. La separación no está directamente relacionada con la seguridad.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Facilitar la compilación separada y modularidad]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Separar declaraciones y definiciones mejora la modularidad y compilación.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Reducir el uso de memoria en tiempo de ejecución]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No afecta el uso de memoria en tiempo de ejecución.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Permitir múltiples definiciones de funciones]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las múltiples definiciones causan errores de enlace.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se previene la inclusión múltiple de un mismo archivo de encabezado Compl...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se previene la inclusión múltiple de un mismo archivo de encabezado?<br><br><code>/* Completar */<br>#define MIARCHIVO_H<br>// Declaraciones<br>#endif</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Usando directivas '#pragma once']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. '#pragma once' es una opción, pero el ejemplo muestra guardas tradicionales.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Usando guardas de inclusión con '#ifndef']]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. '#ifndef' se utiliza para crear guardas de inclusión.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No es posible prevenir inclusiones múltiples]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Sí es posible mediante guardas de inclusión.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando comentarios para deshabilitar código]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Los comentarios no previenen inclusiones múltiples.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ considerando buenas prácticas qué tipo de contenido debe ir en un archivo 'h' ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, considerando buenas prácticas, ¿qué tipo de contenido debe ir en un archivo '.h'?<br><br><code>// Opciones:<br>A. Implementaciones de funciones<br>B. Declaraciones de clases y funciones<br>C. Variables globales con definición<br>D. Código de la función 'main()'<br><br>/* Completar con la opción correcta */</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Solo A y C]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las implementaciones y variables globales no deben estar en el '.h'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Solo B]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Las declaraciones de clases y funciones van en el archivo '.h'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[B y D]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. 'main()' debe estar en un archivo '.cpp'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Todas las anteriores]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No es buena práctica incluir todas en el '.h'.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/IT'S A DOOM/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ qué sucede si incluyes una definición de función en un archivo 'h' y lo incluy...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿qué sucede si incluyes una definición de función en un archivo '.h' y lo incluyes en múltiples archivos '.cpp'?<br><br><code>// miarchivo.h<br>void funcion() { /* Implementación */ }<br><br>// archivo1.cpp<br>#include "miarchivo.h"<br><br>// archivo2.cpp<br>#include "miarchivo.h"<br><br>/* Completar con la consecuencia */</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[El programa funciona sin problemas]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Habrá problemas en la etapa de enlace.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[El compilador genera un error de sintaxis]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El error ocurre en el enlazador, no en el compilador.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[El enlazador genera un error por definiciones múltiples]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El enlazador detecta múltiples definiciones de la misma función.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Las funciones se sobrescriben y solo una es usada]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No se sobrescriben; el enlazador reporta el conflicto.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/HURT ME PLENTY/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cómo se declaran las funciones inline correctamente en archivos de encabezado ...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cómo se declaran las funciones inline correctamente en archivos de encabezado?<br><br><code>/* Completar */ void funcion() {<br>    // Implementación<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Usando la palabra clave 'inline' antes de la definición]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. 'inline' permite definir funciones en el encabezado sin errores de enlace.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Declarando la función en el '.h' y definiéndola en el '.cpp']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esto no garantiza que la función sea inline.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Colocando la función dentro de una clase]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Esto define una función miembro, no necesariamente inline.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No es posible tener funciones inline en archivos '.h']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Sí es posible utilizando 'inline'.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/NIGHTMARE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ al usar plantillas (templates) por qué se suelen implementar en el archivo 'h'...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, al usar plantillas (templates), ¿por qué se suelen implementar en el archivo '.h' en lugar del '.cpp'?<br><br><code>template &lt;typename T&gt;<br>/* Completar */<br>void funcionTemplate(T param) {<br>    // Implementación<br>}</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Porque el compilador necesita ver la implementación para instanciar la plantilla]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. Las plantillas deben ser visibles al compilador para generar el código necesario.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Para mejorar la seguridad del código]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No está relacionado con la seguridad del código.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Para separar claramente declaraciones y definiciones]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. En plantillas, las definiciones suelen ir en el '.h'.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[No es necesario; las plantillas siempre van en el '.cpp']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las plantillas no funcionan correctamente si solo están en el '.cpp'.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRA-VIOLENCE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ cuál es el propósito de utilizar '#pragma once' en un archivo de encabezado Co...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, ¿cuál es el propósito de utilizar '#pragma once' en un archivo de encabezado?<br><br><code>/* Completar */<br>// Declaraciones<br></code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="0">
+        <text><![CDATA[Incluir el archivo una vez por proyecto]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Se refiere a cada unidad de compilación, no al proyecto completo.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="100">
+        <text><![CDATA[Prevenir múltiples inclusiones del mismo archivo durante la compilación]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. '#pragma once' previene inclusiones múltiples del archivo.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Optimizar el código para mayor velocidad]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No está relacionado con la optimización de velocidad.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Indicar al compilador que el archivo es dependiente de plataforma]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No indica dependencias de plataforma.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/ULTRANIGHTMARE/Archivos .h y .cpp</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+    
+    <question type="multichoice">
+      <name>
+        <text>En C++ si una clase es declarada en un archivo 'h' cómo se evita que los cambios en s...</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>En C++, si una clase es declarada en un archivo '.h', ¿cómo se evita que los cambios en su implementación requieran recompilar todos los archivos que la incluyen?<br><br><code>// miClase.h<br>class MiClase {<br>public:<br>    void metodoPublico();<br>private:<br>    /* Completar */<br>};</code></div>
+            <p><strong>Selecciona la respuesta correcta sobre Archivos .h y .cpp</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      <answer fraction="100">
+        <text><![CDATA[Usando el patrón Pimpl (Pointer to Implementation)]]></text>
+        <feedback format="html">
+          <text><![CDATA[Correcto. El patrón Pimpl oculta la implementación y reduce dependencias.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Declarando todos los miembros en 'public']]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. No afecta la necesidad de recompilación y es mala práctica.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Es imposible evitar la recompilación en este caso]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. El patrón Pimpl puede ayudar a evitar recompilaciones innecesarias.]]></text>
+        </feedback>
+      </answer>
+      <answer fraction="0">
+        <text><![CDATA[Usando macros para aislar cambios]]></text>
+        <feedback format="html">
+          <text><![CDATA[Incorrecto. Las macros no son la solución adecuada para este problema.]]></text>
+        </feedback>
+      </answer>
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+</quiz>

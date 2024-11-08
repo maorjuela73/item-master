@@ -1,0 +1,43 @@
+<quiz>
+  {% set current_category = None %}
+  
+  {% for question in questions %}
+    {% if question.categoria != current_category %}
+      <!-- Cambia la categoría solo si es una nueva -->
+      <question type="category">
+        <category>
+          <text>$course$/top/ItemMasterTEST/{{ question.dificultad }}/{{ question.categoria }}</text>
+        </category>
+        <info format="moodle_auto_format">
+          <text></text>
+        </info>
+        <idnumber></idnumber>
+      </question>
+      {% set current_category = question.categoria%}
+    {% endif %}
+    
+    <question type="multichoice">
+      <name>
+        <text>{{ question.enunciado | clean_and_truncate() }}</text>
+      </name>
+      <questiontext format="html">
+        <text><![CDATA[
+          <p><strong>Pregunta:</strong></p>
+            <div>{{ question.enunciado }}</div>
+            <p><strong>Selecciona la respuesta correcta sobre {{ question.categoria }}</strong></p>
+        ]]></text>
+      </questiontext>
+      
+      {% for option in question.opciones %}
+      <answer fraction="{% if option.0 == question.correcta %}100{% else %}0{% endif %}">
+        <text><![CDATA[{{ option.1 }}]]></text>
+        <feedback format="html">
+          <text><![CDATA[{{ question.feedback[option.0] }}]]></text>
+        </feedback>
+      </answer>
+      {% endfor %}
+      
+      <shuffleanswers>true</shuffleanswers>
+    </question>
+  {% endfor %}
+</quiz>
